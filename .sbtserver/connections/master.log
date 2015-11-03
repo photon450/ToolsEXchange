@@ -29,3 +29,9 @@ New client attempting to connect on port: 19123-19097
 This client on port 19123 has uuid 9800b675-74a7-40cb-83f8-ab4a7aba3256 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: activator-9bd9991f-4d6b-44f4-91a8-3d186a65c25e, play-fork-run-9800b675-74a7-40cb-83f8-ab4a7aba3256
 Taking next connection to: 19097
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 7972@SkyFort logs at Tue Nov 03 02:09:07 EST 2015, goodbye.

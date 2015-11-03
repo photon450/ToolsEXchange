@@ -15214,3 +15214,10 @@ Caused by: java.lang.InterruptedException: sleep interrupted
 Total time: 0 s, completed Nov 3, 2015 2:06:27 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 7972@SkyFort logs at Tue Nov 03 02:09:07 EST 2015, goodbye.
