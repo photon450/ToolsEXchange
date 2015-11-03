@@ -1,0 +1,37 @@
+New log file opened at Tue Nov 03 01:44:39 EST 2015 by 7104@SkyFort
+Taking next connection to: 18153
+New client attempting to connect on port: 18154-18153
+  Address = /192.168.1.10:18153
+This client on port 18154 has uuid e4d28b30-6e4d-4fd8-8223-fbf41f38e6cb configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-e4d28b30-6e4d-4fd8-8223-fbf41f38e6cb
+Taking next connection to: 18153
+New client attempting to connect on port: 18171-18153
+  Address = /192.168.1.10:18153
+Handshake exception on socket: 18171
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 18153
+New client attempting to connect on port: 18172-18153
+  Address = /192.168.1.10:18153
+This client on port 18172 has uuid 23a120a0-4560-4f82-b889-5d1f33e1c6fa configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-e4d28b30-6e4d-4fd8-8223-fbf41f38e6cb, play-fork-run-23a120a0-4560-4f82-b889-5d1f33e1c6fa
+Taking next connection to: 18153
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 18153
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 18153
