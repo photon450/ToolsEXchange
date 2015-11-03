@@ -1,13 +1,13 @@
-New log file opened at Tue Nov 03 01:44:39 EST 2015 by 7104@SkyFort
-Taking next connection to: 18153
-New client attempting to connect on port: 18154-18153
-  Address = /192.168.1.10:18153
-This client on port 18154 has uuid e4d28b30-6e4d-4fd8-8223-fbf41f38e6cb configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-e4d28b30-6e4d-4fd8-8223-fbf41f38e6cb
-Taking next connection to: 18153
-New client attempting to connect on port: 18171-18153
-  Address = /192.168.1.10:18153
-Handshake exception on socket: 18171
+New log file opened at Tue Nov 03 02:05:20 EST 2015 by 7972@SkyFort
+Taking next connection to: 19097
+New client attempting to connect on port: 19098-19097
+  Address = /192.168.1.10:19097
+This client on port 19098 has uuid 9bd9991f-4d6b-44f4-91a8-3d186a65c25e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-9bd9991f-4d6b-44f4-91a8-3d186a65c25e
+Taking next connection to: 19097
+New client attempting to connect on port: 19122-19097
+  Address = /192.168.1.10:19097
+Handshake exception on socket: 19122
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,15 +23,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 18153
-New client attempting to connect on port: 18172-18153
-  Address = /192.168.1.10:18153
-This client on port 18172 has uuid 23a120a0-4560-4f82-b889-5d1f33e1c6fa configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-e4d28b30-6e4d-4fd8-8223-fbf41f38e6cb, play-fork-run-23a120a0-4560-4f82-b889-5d1f33e1c6fa
-Taking next connection to: 18153
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 18153
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 18153
+Taking next connection to: 19097
+New client attempting to connect on port: 19123-19097
+  Address = /192.168.1.10:19097
+This client on port 19123 has uuid 9800b675-74a7-40cb-83f8-ab4a7aba3256 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-9bd9991f-4d6b-44f4-91a8-3d186a65c25e, play-fork-run-9800b675-74a7-40cb-83f8-ab4a7aba3256
+Taking next connection to: 19097
