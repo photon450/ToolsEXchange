@@ -5,6 +5,9 @@ target
 /.classpath
 /.project
 /.settings
-/.sbtserver
 /.sbtserver/connections
+/.sbtserver/master.log
+/.sbtserver/previous.log
+/.project/.sbtserver
+/.project/plugins.sbt
 /RUNNING_PID
