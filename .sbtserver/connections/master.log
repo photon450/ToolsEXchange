@@ -1,34 +1,16 @@
-New log file opened at Sat Nov 07 13:23:13 EST 2015 by 3840@Mfts
-Taking next connection to: 50601
-New client attempting to connect on port: 50602-50601
-  Address = /192.168.150.1:50601
-This client on port 50602 has uuid 62b9cdd0-3874-4746-bdf6-ea17924d88bc configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-62b9cdd0-3874-4746-bdf6-ea17924d88bc
-Taking next connection to: 50601
+New log file opened at Sat Nov 07 15:22:19 EST 2015 by 7396@LR900XXAA
+Taking next connection to: 61165
+New client attempting to connect on port: 61166-61165
+  Address = /192.168.56.1:61165
+This client on port 61166 has uuid 6a6f750f-bb47-4cbc-bd0a-ddf93596999e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-6a6f750f-bb47-4cbc-bd0a-ddf93596999e
+Taking next connection to: 61165
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50601
-New client attempting to connect on port: 50676-50601
-  Address = /192.168.150.1:50601
-Handshake exception on socket: 50676
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 50601
-New client attempting to connect on port: 50677-50601
-  Address = /192.168.150.1:50601
-This client on port 50677 has uuid ceb7f3fd-498f-403e-a87f-c9d87f97c2eb configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-62b9cdd0-3874-4746-bdf6-ea17924d88bc, play-fork-run-ceb7f3fd-498f-403e-a87f-c9d87f97c2eb
-Taking next connection to: 50601
+Taking next connection to: 61165
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61165
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61165
