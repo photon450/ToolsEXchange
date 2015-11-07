@@ -7,3 +7,4 @@ target
 /.settings
 /.sbtserver/connections
 /RUNNING_PID
+/.sbtserver/connections
