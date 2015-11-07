@@ -5,5 +5,5 @@ target
 /.classpath
 /.project
 /.settings
-/.sbtserver/connections
+/.sbtserver
 /RUNNING_PID
