@@ -5,3 +5,6 @@ New client attempting to connect on port: 61207-61206
 This client on port 61207 has uuid 282f2a22-c57a-415a-af04-23c4d4a2acb1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
 Connected Clients: activator-282f2a22-c57a-415a-af04-23c4d4a2acb1
 Taking next connection to: 61206
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61206
