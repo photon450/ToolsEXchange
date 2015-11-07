@@ -1,10 +1,52 @@
-New log file opened at Sat Nov 07 15:34:03 EST 2015 by 6084@LR900XXAA
-Taking next connection to: 61206
-New client attempting to connect on port: 61207-61206
-  Address = /192.168.56.1:61206
-This client on port 61207 has uuid 282f2a22-c57a-415a-af04-23c4d4a2acb1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-282f2a22-c57a-415a-af04-23c4d4a2acb1
-Taking next connection to: 61206
+New log file opened at Sat Nov 07 15:52:41 EST 2015 by 7952@LR900XXAA
+Taking next connection to: 61339
+New client attempting to connect on port: 61340-61339
+  Address = /192.168.56.1:61339
+This client on port 61340 has uuid 4cf02b9f-c3bc-433a-928a-3c829babb6b4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-4cf02b9f-c3bc-433a-928a-3c829babb6b4
+Taking next connection to: 61339
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61206
+Taking next connection to: 61339
+New client attempting to connect on port: 61378-61339
+  Address = /192.168.56.1:61339
+Handshake exception on socket: 61378
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 61339
+New client attempting to connect on port: 61379-61339
+  Address = /192.168.56.1:61339
+This client on port 61379 has uuid 57a177f9-66a3-4d13-a11b-70989c224657 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-4cf02b9f-c3bc-433a-928a-3c829babb6b4, play-fork-run-57a177f9-66a3-4d13-a11b-70989c224657
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61339
