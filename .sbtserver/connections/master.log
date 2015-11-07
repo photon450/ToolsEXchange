@@ -1,13 +1,16 @@
-New log file opened at Tue Nov 03 02:05:20 EST 2015 by 7972@SkyFort
-Taking next connection to: 19097
-New client attempting to connect on port: 19098-19097
-  Address = /192.168.1.10:19097
-This client on port 19098 has uuid 9bd9991f-4d6b-44f4-91a8-3d186a65c25e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-9bd9991f-4d6b-44f4-91a8-3d186a65c25e
-Taking next connection to: 19097
-New client attempting to connect on port: 19122-19097
-  Address = /192.168.1.10:19097
-Handshake exception on socket: 19122
+New log file opened at Sat Nov 07 13:23:13 EST 2015 by 3840@Mfts
+Taking next connection to: 50601
+New client attempting to connect on port: 50602-50601
+  Address = /192.168.150.1:50601
+This client on port 50602 has uuid 62b9cdd0-3874-4746-bdf6-ea17924d88bc configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-62b9cdd0-3874-4746-bdf6-ea17924d88bc
+Taking next connection to: 50601
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50601
+New client attempting to connect on port: 50676-50601
+  Address = /192.168.150.1:50601
+Handshake exception on socket: 50676
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,15 +26,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 19097
-New client attempting to connect on port: 19123-19097
-  Address = /192.168.1.10:19097
-This client on port 19123 has uuid 9800b675-74a7-40cb-83f8-ab4a7aba3256 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-9bd9991f-4d6b-44f4-91a8-3d186a65c25e, play-fork-run-9800b675-74a7-40cb-83f8-ab4a7aba3256
-Taking next connection to: 19097
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-Server socket thread exiting.
-0 clients open, will close them...
-All client sockets have been closed.
-Closing the 7972@SkyFort logs at Tue Nov 03 02:09:07 EST 2015, goodbye.
+Taking next connection to: 50601
+New client attempting to connect on port: 50677-50601
+  Address = /192.168.150.1:50601
+This client on port 50677 has uuid ceb7f3fd-498f-403e-a87f-c9d87f97c2eb configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-62b9cdd0-3874-4746-bdf6-ea17924d88bc, play-fork-run-ceb7f3fd-498f-403e-a87f-c9d87f97c2eb
+Taking next connection to: 50601
