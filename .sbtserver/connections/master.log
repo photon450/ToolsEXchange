@@ -1,16 +1,7 @@
-New log file opened at Sat Nov 07 15:22:19 EST 2015 by 7396@LR900XXAA
-Taking next connection to: 61165
-New client attempting to connect on port: 61166-61165
-  Address = /192.168.56.1:61165
-This client on port 61166 has uuid 6a6f750f-bb47-4cbc-bd0a-ddf93596999e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-6a6f750f-bb47-4cbc-bd0a-ddf93596999e
-Taking next connection to: 61165
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61165
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61165
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61165
+New log file opened at Sat Nov 07 15:34:03 EST 2015 by 6084@LR900XXAA
+Taking next connection to: 61206
+New client attempting to connect on port: 61207-61206
+  Address = /192.168.56.1:61206
+This client on port 61207 has uuid 282f2a22-c57a-415a-af04-23c4d4a2acb1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-282f2a22-c57a-415a-af04-23c4d4a2acb1
+Taking next connection to: 61206
