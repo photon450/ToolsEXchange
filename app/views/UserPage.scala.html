@@ -2,12 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Bootstrap!!! --->
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+
+    <title>My Account Page</title>
 </head>
 <body>
 
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#" class="text-center"> View newly added tools here </a>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Login/New Users <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">New Users</a></li>
+        </ul>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="@routes.UserPage.getUserPage()":>Account</a></li>
+</ul>
+
     <p>
-        <h1> hey!!!</h1>
+        <h1> Welcome!! Work In progress but in the future you will be logged in</h1>
     </p>
+    <div>
 </body>
 </html>
