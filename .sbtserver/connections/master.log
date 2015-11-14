@@ -1,70 +1,7 @@
-New log file opened at Sat Nov 14 00:31:28 EST 2015 by 3936@SkyFort
-Taking next connection to: 3232
-New client attempting to connect on port: 3233-3232
-  Address = /192.168.56.1:3232
-This client on port 3233 has uuid 76d7cb1b-2c7a-4f86-87c2-1d819827211d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-76d7cb1b-2c7a-4f86-87c2-1d819827211d
-Taking next connection to: 3232
-New client attempting to connect on port: 3240-3232
-  Address = /192.168.56.1:3232
-Handshake exception on socket: 3240
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 3232
-New client attempting to connect on port: 3241-3232
-  Address = /192.168.56.1:3232
-This client on port 3241 has uuid 8745211f-11f1-4ea6-bf6c-beedae0faf0e configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-76d7cb1b-2c7a-4f86-87c2-1d819827211d, play-fork-run-8745211f-11f1-4ea6-bf6c-beedae0faf0e
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 3232
+New log file opened at Sat Nov 14 02:22:04 EST 2015 by 4724@SkyFort
+Taking next connection to: 7287
+New client attempting to connect on port: 7288-7287
+  Address = /192.168.56.1:7287
+This client on port 7288 has uuid 4f4593b8-49b0-43f3-ab37-b797908863eb configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-4f4593b8-49b0-43f3-ab37-b797908863eb
+Taking next connection to: 7287

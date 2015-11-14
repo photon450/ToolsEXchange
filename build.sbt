@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-    "org.postgresql" % "postgresql" % "9.4-1201-jdbc41"
+  "org.postgresql" % "postgresql" % "9.4-1201-jdbc41"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
