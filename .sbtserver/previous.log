@@ -1,5 +1,5 @@
-New log file opened at Sat Nov 14 02:15:55 EST 2015 by 6320@SkyFort
-jvm 6320@SkyFort
+New log file opened at Sat Nov 14 02:22:04 EST 2015 by 4724@SkyFort
+jvm 4724@SkyFort
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.65-b01
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\project, returning: (toolsexchange-build)
 Loading project definition from C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@191550e0, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@722d371d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,64 +67,9 @@ Set current project to ToolsEXchange (in build file:/C:/Users/Whale/Documents/Gi
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4c65d6a1, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\navbar.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\UserPage.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\Home.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\navbar.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\UserPage.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\Home.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\navbar.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\UserPage.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\Home.template.scala)
-
-Recompiling all 18 sources: invalidated sources (10) exceeded 50.0% of all sources
-Read from stdout: Compiling 10 Scala sources and 8 Java sources to C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 10 Scala sources and 8 Java sources to C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 1969c362, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jre1.8.0_65\lib\resources.jar;C:\Program Files\Java\jre1.8.0_65\lib\rt.jar;C:\Program Files\Java\jre1.8.0_65\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_65\lib\jce.jar;C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_65\classes;C:\Users\Whale\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
-	-classpath
-	C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\Whale\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-ebean_2.11\jars\play-ebean_2.11-1.0.0.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Whale\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\Whale\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\Whale\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\Whale\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Whale\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\Whale\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\Whale\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\Whale\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Whale\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Whale\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Whale\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\Whale\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\Whale\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\Whale\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\Whale\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Whale\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\Whale\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\Whale\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\Whale\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\Whale\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\Whale\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\Whale\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\Whale\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\Whale\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\Whale\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\Whale\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\Whale\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\Whale\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\Whale\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\Whale\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\Whale\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.11\jars\play-jdbc-evolutions_2.11-2.4.0.jar;C:\Users\Whale\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm\jars\avaje-ebeanorm-4.6.2.jar;C:\Users\Whale\.ivy2\cache\javax.persistence\persistence-api\jars\persistence-api-1.0.jar;C:\Users\Whale\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm-agent\jars\avaje-ebeanorm-agent-4.5.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\Whale\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\Whale\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\Whale\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\Whale\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\Whale\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Whale\.ivy2\cache\org.postgresql\postgresql\jars\postgresql-9.4-1201-jdbc41.jar
-Scala compilation took 4.283217629 s
-Read from stdout: Note: Some input files use or override a deprecated API.
-Note: Some input files use or override a deprecated API.
-Read from stdout: Note: Recompile with -Xlint:deprecation for details.
-Note: Recompile with -Xlint:deprecation for details.
-Java compilation took 0.694045681 s
-Java analysis took 0.177565654 s
-Java compile + analysis took 0.879237795 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 7 s, completed Nov 14, 2015 2:16:05 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
 > {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@7e655cb2, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@342505f8, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -141,18 +86,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed Nov 14, 2015 2:16:06 AM
+Total time: 1 s, completed Nov 14, 2015 2:22:10 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@65dfc018, check cycles: false
-Total time: 0 s, completed Nov 14, 2015 2:16:06 AM
+Running task... Cancel: sbt.server.ServerTaskCancellation@20eac2c0, check cycles: false
+Total time: 0 s, completed Nov 14, 2015 2:22:10 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@36c3920f, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@65b2d777, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -169,30 +114,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed Nov 14, 2015 2:16:06 AM
+Total time: 0 s, completed Nov 14, 2015 2:22:10 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@4e355793, check cycles: false
-Total time: 0 s, completed Nov 14, 2015 2:16:10 AM
+> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@40fe634f, check cycles: false
+Total time: 0 s, completed Nov 14, 2015 2:22:10 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@60d17a87, check cycles: false
-Total time: 0 s, completed Nov 14, 2015 2:16:12 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@4dc7ebf8, check cycles: false
-Total time: 0 s, completed Nov 14, 2015 2:16:13 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@4a6e6cc5, check cycles: false
+> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@d5d0003, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -209,97 +142,13 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Copy resource mappings: 
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\application.conf)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\routes,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\routes)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Total time: 1 s, completed Nov 14, 2015 2:16:21 AM
+Total time: 0 s, completed Nov 14, 2015 3:04:06 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@5944285f, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\application.conf)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\routes,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\routes)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Total time: 1 s, completed Nov 14, 2015 2:16:23 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@5216423d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\navbar.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\Home.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\navbar.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\Home.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\navbar.template.scala, C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\twirl\main\views\html\Home.template.scala)
-
-Read from stdout: Compiling 2 Scala sources to C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 2 Scala sources to C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 392a7432, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jre1.8.0_65\lib\resources.jar;C:\Program Files\Java\jre1.8.0_65\lib\rt.jar;C:\Program Files\Java\jre1.8.0_65\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_65\lib\jce.jar;C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_65\classes;C:\Users\Whale\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
-	-classpath
-	C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\Whale\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-ebean_2.11\jars\play-ebean_2.11-1.0.0.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Whale\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\Whale\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\Whale\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\Whale\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Whale\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\Whale\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\Whale\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\Whale\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Whale\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Whale\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Whale\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\Whale\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\Whale\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\Whale\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\Whale\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Whale\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\Whale\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\Whale\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\Whale\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\Whale\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\Whale\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\Whale\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\Whale\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\Whale\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\Whale\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\Whale\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\Whale\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\Whale\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\Whale\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\Whale\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\Whale\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\Whale\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.11\jars\play-jdbc-evolutions_2.11-2.4.0.jar;C:\Users\Whale\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm\jars\avaje-ebeanorm-4.6.2.jar;C:\Users\Whale\.ivy2\cache\javax.persistence\persistence-api\jars\persistence-api-1.0.jar;C:\Users\Whale\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm-agent\jars\avaje-ebeanorm-agent-4.5.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\Whale\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\Whale\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\Whale\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\Whale\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\Whale\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\Whale\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Whale\.ivy2\cache\org.postgresql\postgresql\jars\postgresql-9.4-1201-jdbc41.jar
-Scala compilation took 0.709716738 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Copy resource mappings: 
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\application.conf)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\routes,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\routes)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
-	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Total time: 1 s, completed Nov 14, 2015 2:21:15 AM
+> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@5dcf1c34, check cycles: false
+Total time: 0 s, completed Nov 14, 2015 3:04:06 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -308,4 +157,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 6320@SkyFort logs at Sat Nov 14 02:21:57 EST 2015, goodbye.
+Closing the 4724@SkyFort logs at Sat Nov 14 03:04:06 EST 2015, goodbye.

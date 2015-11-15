@@ -1,7 +1,92 @@
-New log file opened at Sat Nov 14 02:22:04 EST 2015 by 4724@SkyFort
-Taking next connection to: 7287
-New client attempting to connect on port: 7288-7287
-  Address = /192.168.56.1:7287
-This client on port 7288 has uuid 4f4593b8-49b0-43f3-ab37-b797908863eb configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-4f4593b8-49b0-43f3-ab37-b797908863eb
-Taking next connection to: 7287
+New log file opened at Sat Nov 14 03:04:13 EST 2015 by 6480@SkyFort
+Taking next connection to: 8840
+New client attempting to connect on port: 8841-8840
+  Address = /192.168.56.1:8840
+This client on port 8841 has uuid 14665922-e9e2-4602-a482-1e8e70c167de configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-14665922-e9e2-4602-a482-1e8e70c167de
+Taking next connection to: 8840
+New client attempting to connect on port: 8842-8840
+  Address = /192.168.56.1:8840
+Handshake exception on socket: 8842
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 8840
+New client attempting to connect on port: 8843-8840
+  Address = /192.168.56.1:8840
+This client on port 8843 has uuid 88443239-c9fb-45dc-8064-1343f6a33c0a configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-14665922-e9e2-4602-a482-1e8e70c167de, activator-88443239-c9fb-45dc-8064-1343f6a33c0a
+Taking next connection to: 8840
+New client attempting to connect on port: 8916-8840
+  Address = /192.168.56.1:8840
+Handshake exception on socket: 8916
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 8840
+New client attempting to connect on port: 8917-8840
+  Address = /192.168.56.1:8840
+This client on port 8917 has uuid 16430b27-3efe-4508-8c7f-e044cf0e042a configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-88443239-c9fb-45dc-8064-1343f6a33c0a, play-fork-run-16430b27-3efe-4508-8c7f-e044cf0e042a
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 8840
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+1 daemon clients are connected.
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 6480@SkyFort logs at Sat Nov 14 03:39:09 EST 2015, goodbye.

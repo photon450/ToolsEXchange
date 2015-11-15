@@ -1,5 +1,5 @@
-New log file opened at Sat Nov 14 02:22:04 EST 2015 by 4724@SkyFort
-jvm 4724@SkyFort
+New log file opened at Sat Nov 14 03:04:13 EST 2015 by 6480@SkyFort
+jvm 6480@SkyFort
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.65-b01
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\project, returning: (toolsexchange-build)
 Loading project definition from C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@722d371d, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@6c9b86cb, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,9 +67,9 @@ Set current project to ToolsEXchange (in build file:/C:/Users/Whale/Documents/Gi
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@342505f8, check cycles: false
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@666a1d4b, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -86,18 +86,12 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed Nov 14, 2015 2:22:10 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@20eac2c0, check cycles: false
-Total time: 0 s, completed Nov 14, 2015 2:22:10 AM
+Total time: 1 s, completed Nov 14, 2015 3:04:17 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@65b2d777, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b226fac, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -114,12 +108,88 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed Nov 14, 2015 2:22:10 AM
+Total time: 0 s, completed Nov 14, 2015 3:04:17 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@40fe634f, check cycles: false
-Total time: 0 s, completed Nov 14, 2015 2:22:10 AM
+Running task... Cancel: sbt.server.ServerTaskCancellation@2384d2d, check cycles: false
+Total time: 0 s, completed Nov 14, 2015 3:04:17 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@3d72e87f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Nov 14, 2015 3:04:18 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@231a144a, check cycles: false
+Total time: 0 s, completed Nov 14, 2015 3:06:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@50a89b17, check cycles: false
+Total time: 0 s, completed Nov 14, 2015 3:06:09 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@18cb9604, check cycles: false
+Total time: 0 s, completed Nov 14, 2015 3:06:10 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/ToolsEXchange/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@17473d7b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\routes,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed Nov 14, 2015 3:06:16 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 6480@SkyFort logs at Sat Nov 14 03:39:09 EST 2015, goodbye.
