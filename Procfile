@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/movie-rate -Dhttp.port=${PORT} -Dplay.evolutions.db.default.autoApply=true -Dplay.evolutions.db.default.autoApplyDowns=true -Ddb.default.url=${DATABASE_URL} -Dplay.crypto.secret=${APP_SECRET}
+web: target/universal/stage/bin/ToolEXchange -Dhttp.port=${PORT} -Dplay.evolutions.db.default.autoApply=true -Dplay.evolutions.db.default.autoApplyDowns=true -Ddb.default.url=${DATABASE_URL} -Dplay.crypto.secret=${APP_SECRET}
