@@ -3,14 +3,14 @@
 
 # --- !Ups
 
-create table account (
+create table users (
   id                        bigserial not null,
   first_name                varchar(255),
   last_name                 varchar(255),
   email                     varchar(255),
   password_hash             varchar(255),
   date_created              timestamp,
-  constraint pk_account primary key (id))
+  constraint pk_users primary key (id))
 ;
 
 
@@ -18,5 +18,5 @@ create table account (
 
 # --- !Downs
 
-drop table if exists account cascade;
+drop table if exists users cascade;
 

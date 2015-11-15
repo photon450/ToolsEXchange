@@ -4,6 +4,7 @@ import com.avaje.ebean.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToMany;
 import java.util.Date;
 import java.util.List;
@@ -17,7 +18,7 @@ import play.data.validation.Constraints;
  */
 
 
-@Entity
+@MappedSuperclass
 public class Account  extends Model {
     @Id
     public long id;

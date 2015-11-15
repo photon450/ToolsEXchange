@@ -13,3 +13,5 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 #gets the UserPage
 
 GET     /Home/UserPage              controllers.UserPage.getUserPage()
+
+GET     /Home/Login                 controllers.Account.getLoginPage()
