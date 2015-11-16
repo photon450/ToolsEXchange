@@ -1,13 +1,13 @@
-New log file opened at Sun Nov 15 16:33:52 EST 2015 by 6656@SkyFort
-Taking next connection to: 30959
-New client attempting to connect on port: 30960-30959
-  Address = /192.168.56.1:30959
-This client on port 30960 has uuid cf1fba9d-2744-4e29-93de-8cc2dc6869bc configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-cf1fba9d-2744-4e29-93de-8cc2dc6869bc
-Taking next connection to: 30959
-New client attempting to connect on port: 30987-30959
-  Address = /192.168.56.1:30959
-Handshake exception on socket: 30987
+New log file opened at Sun Nov 15 19:49:11 EST 2015 by 8692@SkyFort
+Taking next connection to: 37828
+New client attempting to connect on port: 37829-37828
+  Address = /192.168.56.1:37828
+This client on port 37829 has uuid 649c8e4c-bd21-44e4-bffb-3ce80c66a3da configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-649c8e4c-bd21-44e4-bffb-3ce80c66a3da
+Taking next connection to: 37828
+New client attempting to connect on port: 37842-37828
+  Address = /192.168.56.1:37828
+Handshake exception on socket: 37842
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,181 +23,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 30959
-New client attempting to connect on port: 30988-30959
-  Address = /192.168.56.1:30959
-This client on port 30988 has uuid d671533e-ac9d-4af5-b9bf-af35afcb5f22 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-cf1fba9d-2744-4e29-93de-8cc2dc6869bc, play-fork-run-d671533e-ac9d-4af5-b9bf-af35afcb5f22
-Taking next connection to: 30959
-New client attempting to connect on port: 31112-30959
-  Address = /192.168.56.1:30959
-Handshake exception on socket: 31112
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 30959
-New client attempting to connect on port: 31113-30959
-  Address = /192.168.56.1:30959
-This client on port 31113 has uuid ca01fd5c-3fd5-4b4c-a4f7-49f0fa0a0621 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-cf1fba9d-2744-4e29-93de-8cc2dc6869bc, play-fork-run-ca01fd5c-3fd5-4b4c-a4f7-49f0fa0a0621
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-New client attempting to connect on port: 31458-30959
-  Address = /192.168.56.1:30959
-Handshake exception on socket: 31458
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 30959
-New client attempting to connect on port: 31459-30959
-  Address = /192.168.56.1:30959
-This client on port 31459 has uuid cd1e1e39-ed18-4757-825d-f1350d835cd3 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-cf1fba9d-2744-4e29-93de-8cc2dc6869bc, play-fork-run-cd1e1e39-ed18-4757-825d-f1350d835cd3
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 30959
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-1 daemon clients are connected.
-Server socket thread exiting.
-1 clients open, will close them...
-All client sockets have been closed.
-Closing the 6656@SkyFort logs at Sun Nov 15 18:38:08 EST 2015, goodbye.
+Taking next connection to: 37828
+New client attempting to connect on port: 37843-37828
+  Address = /192.168.56.1:37828
+This client on port 37843 has uuid 1988a66f-3eb5-4f00-b0ab-a63d2d88e62f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-649c8e4c-bd21-44e4-bffb-3ce80c66a3da, play-fork-run-1988a66f-3eb5-4f00-b0ab-a63d2d88e62f
+Taking next connection to: 37828
