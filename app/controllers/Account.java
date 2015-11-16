@@ -39,7 +39,7 @@ public class Account extends Controller {
 
         if(user == null){
             flash("error", "invalid user");
-            return redirect(routes.Account.getLoginPage());   // so if didnt put an email warn em witha flash message and redirect back to login page
+            return redirect(routes.Account.getRegPage());   // so if didnt put an email warn em witha flash message and redirect back to login page
         }
         user.save();
 

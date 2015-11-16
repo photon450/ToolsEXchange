@@ -1,0 +1,12 @@
+
+@* Display flash messages *@
+@if(flash.containsKey("success")) {
+<p>Success </p>
+@flash.get("success")
+
+}
+@if(flash.containsKey("error")) {
+<p>Error please try again  </p>
+@flash.get("error")
+
+}

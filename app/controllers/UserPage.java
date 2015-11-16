@@ -5,16 +5,12 @@ package controllers;
  */
 
 
-import play.*;
+import models.SecuredAction;
 import play.mvc.*;
 
-import views.html.*;
+import play.mvc.Security.Authenticated;
 
-import play.data.Form;
-import play.db.ebean.Model;
-import static play.libs.Json.toJson;
-import java.util.List;
-
+@With(SecuredAction.class)
 public class UserPage extends Controller {
     public Result getUserPage() {return ok(views.html.UserPage.render()); }
 }
