@@ -8,6 +8,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import java.util.Date;
 import java.util.List;
+
+import org.mindrot.jbcrypt.BCrypt;
 import play.data.format.Formats;
 import play.data.validation.Constraints;
 /**
@@ -25,6 +27,23 @@ import play.data.validation.Constraints;
         //Implement find by functions later
 
 
+  // So check the username and password entered and see if neither is null and password is greater than 8
+    public static User createNewUser(String email, String password) {
+        if(password == null || email == null || password.length() < 8) {
+            return null;
+        }
+        // if not null continue process
+        // hash and salt the password
+
+        String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+
+        // proceed to create the user, dont worry inherits from Account.
+        User user = new User();
+        user.email = email;
+        user.passwordHash = passwordHash;
+
+        return user;
+    }
 
     }
 

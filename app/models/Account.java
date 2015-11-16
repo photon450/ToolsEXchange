@@ -21,7 +21,7 @@ import play.data.validation.Constraints;
 @MappedSuperclass
 public class Account  extends Model {
     @Id
-    public long id;
+    public Long id;
 
     public String first_name;
 
