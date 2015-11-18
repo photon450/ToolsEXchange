@@ -15462,3 +15462,32 @@ Copy resource mappings:
 Total time: 6 s, completed Nov 17, 2015 9:09:07 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/admin/ToolsEXchange/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@387c6c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\admin\ToolsEXchange\conf\application.conf,C:\Users\admin\ToolsEXchange\target\scala-2.11\classes\application.conf)
+	(C:\Users\admin\ToolsEXchange\conf\evolutions,C:\Users\admin\ToolsEXchange\target\scala-2.11\classes\evolutions)
+	(C:\Users\admin\ToolsEXchange\conf\logback.xml,C:\Users\admin\ToolsEXchange\target\scala-2.11\classes\logback.xml)
+	(C:\Users\admin\ToolsEXchange\conf\routes,C:\Users\admin\ToolsEXchange\target\scala-2.11\classes\routes)
+	(C:\Users\admin\ToolsEXchange\conf\evolutions\default,C:\Users\admin\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\admin\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\admin\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 4 s, completed Nov 17, 2015 9:46:14 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
