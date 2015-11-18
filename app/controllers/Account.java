@@ -19,6 +19,7 @@ import java.util.List;
 import org.mindrot.jbcrypt.BCrypt;
 
 import static play.data.Form.form;
+import play.api.data.Forms;
 
 public class Account extends Controller {
 
@@ -30,12 +31,14 @@ public class Account extends Controller {
 
 // we define adduser here.
     public Result addUser() {
-        DynamicForm userForm = form().bindFromRequest();      //creates a DynamicForm userform we bind from the request
+        Form<User> userForm = form(User.class).bindFromRequest();      //creates a DynamicForm userform we bind from the request
         String email = userForm.data().get("username");
         String password = userForm.data().get("password");
 
         //returns a user
         User user = User.createNewUser(email, password);
+
+
 
         if(user == null){
             flash("error", "invalid user");

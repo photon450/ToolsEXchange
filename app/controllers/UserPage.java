@@ -5,12 +5,12 @@ package controllers;
  */
 
 
-import models.SecuredAction;
+import models.UserAuth;
 import play.mvc.*;
 
 import play.mvc.Security.Authenticated;
 
-@With(SecuredAction.class)
+@Security.Authenticated(UserAuth.class)
 public class UserPage extends Controller {
     public Result getUserPage() {return ok(views.html.UserPage.render()); }
 }
