@@ -1452,3 +1452,10 @@ Copy resource mappings:
 Total time: 1 s, completed Nov 21, 2015 6:15:19 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 3644@Mfts logs at Sat Nov 21 18:22:37 EST 2015, goodbye.
