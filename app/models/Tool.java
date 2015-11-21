@@ -1,30 +1,28 @@
 package models;
 
 
-import javax.persistence.Id;
-import javax.persistence.Lob;
+import com.avaje.ebean.Model;
+
+import javax.persistence.*;
 
 /**
  * Created by Whale on 11/13/2015.
  */
-public class Tool {
+@Entity
+public class Tool extends Model {
 
-    @Id
+     @Id
      public long ToolId;
 
      public String Tool_Name;
-    @Lob
+
+     @Lob
      public String  Tool_Description;
 
-    public String Conditions;
+     public String Condition;
 
-    
-
-
-
-
-
-
+       @ManyToOne //(optional=false)
+       public User user;
 
 
 }

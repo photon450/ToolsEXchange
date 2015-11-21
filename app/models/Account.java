@@ -11,7 +11,6 @@ import java.util.List;
 import play.data.format.Formats;
 import play.data.validation.Constraints;
 
-
 //import models.auth.Hash;
 /**
  * Created by Whale on 11/13/2015.
