@@ -50,12 +50,14 @@ import play.mvc.*;
     {
         return BCrypt.checkpw(password, this.passwordHash);
     }
-    Uncomment this
-  /*  public void addTool(Tool tool)
+
+    /*
+    public void addTool(Tool tool)
     {
         this.tools.add(tool);
         this.save();
-    }  */
+    }
+    */
 }
 
 

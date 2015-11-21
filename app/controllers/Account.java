@@ -5,21 +5,14 @@ package controllers;
  */
 
 import models.User;
-import play.*;
 import play.data.DynamicForm;
 import play.mvc.*;
 
 import views.html.*;
 
 import play.data.Form;
-import play.db.ebean.Model;
-import static play.libs.Json.toJson;
-import java.util.List;
-
-import org.mindrot.jbcrypt.BCrypt;
 
 import static play.data.Form.form;
-import play.api.data.Forms;
 
 public class Account extends Controller {
 
@@ -53,7 +46,7 @@ public class Account extends Controller {
 
     public Result logout() {
         session().remove("user_id");
-        return ok(Home.render(navbar.retrieveId()));
+        return ok(Home.render(navibar.retrieveId()));
     }
 
     public Result login() {
