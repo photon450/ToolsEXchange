@@ -53,7 +53,7 @@ public class Account extends Controller {
 
     public Result logout() {
         session().remove("user_id");
-        return ok(Home.render(navbar.retrieveId()));
+        return ok(Home.render(navibar.retrieveId()));
     }
 
     public Result login() {
