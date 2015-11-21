@@ -1,3 +1,16 @@
+@(usrIdStr: String)
+
+@if(usrIdStr != null){
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#" class="text-center"> View newly added tools here </a>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="@routes.UserPage.getUserPage()":>Account</a></li>
+    <li><a href="@routes.Account.logout()">Logout</a></li>
+
+</ul>
+} else{
 <ul class="nav nav-tabs">
     <li class="active">
         <a href="#" class="text-center"> View newly added tools here </a>
@@ -5,10 +18,11 @@
     <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Login/New Users <span class="caret"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">New Users</a></li>
+            <li><a href="@routes.Account.getLoginPage()">Login</a></li>
+            <li><a href="@routes.Account.getRegPage()">New Users</a></li>
         </ul>
     </li>
     <li><a href="#">About</a></li>
-    <li><a href="@routes.UserPage.getUserPage()":>Account</a></li>
+
 </ul>
+}

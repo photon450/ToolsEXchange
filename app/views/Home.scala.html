@@ -1,3 +1,5 @@
+@(usrIdStr: String)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,36 +26,8 @@
     </div>
 </div>
 
-<div class="container">
 
-<ul class="nav nav-tabs">
-    <li class="active">
-        <a href="#" class="text-center"> View newly added tools here </a>
-    </li>
-    <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Login/New Users <span class="caret"></span></a>
-    <ul class="dropdown-menu">
-        <li><a href="@routes.Account.getLoginPage()">Login</a></li>
-        <li><a href="@routes.Account.getRegPage()">New Users</a></li>
-    </ul>
-    </li>
-    <li><a href="#">About</a></li>
-    <li><a href="@routes.UserPage.getUserPage()":>Account</a></li>
-
-</ul>
-
-    </li>
-</ul>
-
-
-
-<div class="row">
-    <div class="col-md-4"> <p class="text-center"> CAT 1 </p> </div>
-    <div class="col-md-4"> <p class="text-center"> CAT 2 </p></div>
-    <div class="col-md-4"> <p class="text-center"> CAT 3 </p></div>
-</div>
-
-</div>
+@navbar(usrIdStr)
 
 
 </body>

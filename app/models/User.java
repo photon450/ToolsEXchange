@@ -45,6 +45,10 @@ import play.data.validation.Constraints;
         return user;
     }
 
+    public boolean authenticate(String password)
+    {
+        return BCrypt.checkpw(password, this.passwordHash);
     }
+}
 
 

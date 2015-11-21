@@ -51,5 +51,28 @@ public class Account extends Controller {
         return redirect(routes.UserPage.getUserPage()); // leaves at their Main user page
     }
 
+    public Result logout() {
+        session().remove("user_id");
+        return ok(Home.render(navbar.retrieveId()));
+    }
+
+    public Result login() {
+        DynamicForm userForm = form().bindFromRequest();
+        String email = userForm.data().get("username");
+        String password = userForm.data().get("password");
+
+        User user = User.find.where().eq("email", email).findUnique();
+
+        if(user != null && user.authenticate(password)) {
+            session("user_id", user.id.toString());
+            flash("success", "Welcome back " + user.username);
+        } else {
+            flash("error", "Invalid login. Check your username and password.");
+        }
+
+        return redirect(routes.Application.index());
+
+    }
+
 
 }

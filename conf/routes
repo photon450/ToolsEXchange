@@ -12,10 +12,14 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 #gets the UserPage
 
-GET     /Home/UserPage              controllers.UserPage.getUserPage()
+GET     /Home/UserPage                  controllers.UserPage.getUserPage()
 
-GET     /Home/Login                controllers.Account.getLoginPage()
+GET     /Home/Login                     controllers.Account.getLoginPage()
 
-GET    /Login/Registration          controllers.Account.getRegPage()
+GET     /Login/Logout                   controllers.Account.logout()
+
+GET     /Login/Registration             controllers.Account.getRegPage()
 
 POST    /Login/Registration/submit      controllers.Account.addUser()
+
+POST    /Login                          controllers.Account.login()
