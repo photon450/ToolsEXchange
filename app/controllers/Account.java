@@ -5,21 +5,14 @@ package controllers;
  */
 
 import models.User;
-import play.*;
 import play.data.DynamicForm;
 import play.mvc.*;
 
 import views.html.*;
 
 import play.data.Form;
-import play.db.ebean.Model;
-import static play.libs.Json.toJson;
-import java.util.List;
-
-import org.mindrot.jbcrypt.BCrypt;
 
 import static play.data.Form.form;
-import play.api.data.Forms;
 
 public class Account extends Controller {
 

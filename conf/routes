@@ -23,3 +23,5 @@ GET     /Login/Registration             controllers.Account.getRegPage()
 POST    /Login/Registration/submit      controllers.Account.addUser()
 
 POST    /Login                          controllers.Account.login()
+
+# POST    /addTool                        controllers.UserPage.addTool()

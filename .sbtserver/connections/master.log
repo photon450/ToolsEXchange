@@ -1,59 +1,10 @@
-New log file opened at Sat Nov 21 17:58:01 EST 2015 by 3644@Mfts
-Taking next connection to: 54301
-New client attempting to connect on port: 54302-54301
-  Address = /192.168.56.1:54301
-This client on port 54302 has uuid bd923526-eba0-42aa-aa3f-c508812420d2 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-bd923526-eba0-42aa-aa3f-c508812420d2
-Taking next connection to: 54301
-New client attempting to connect on port: 54305-54301
-  Address = /192.168.56.1:54301
-Handshake exception on socket: 54305
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 54301
-New client attempting to connect on port: 54306-54301
-  Address = /192.168.56.1:54301
-This client on port 54306 has uuid 2c171cce-4d57-4492-83ed-dc670f15fc87 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-bd923526-eba0-42aa-aa3f-c508812420d2, play-fork-run-2c171cce-4d57-4492-83ed-dc670f15fc87
-Taking next connection to: 54301
+New log file opened at Sat Nov 21 19:35:34 EST 2015 by 6240@Mfts
+Taking next connection to: 49629
+New client attempting to connect on port: 49631-49629
+  Address = /192.168.56.1:49629
+This client on port 49631 has uuid 8aba3968-60d2-4ee5-9955-8ea3f47f33bd configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8aba3968-60d2-4ee5-9955-8ea3f47f33bd
+Taking next connection to: 49629
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54301
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54301
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54301
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54301
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54301
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54301
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54301
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-1 daemon clients are connected.
-Server socket thread exiting.
-1 clients open, will close them...
-All client sockets have been closed.
-Closing the 3644@Mfts logs at Sat Nov 21 18:22:37 EST 2015, goodbye.
+Taking next connection to: 49629
