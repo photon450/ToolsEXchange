@@ -24,6 +24,22 @@ public class Tool extends Model {
        @ManyToOne //(optional=false)
        public User user;
 
+     public static Tool createNewTool(String Tool_Name, String Tool_Description, String Condition)
+     {
+         if(Tool_Name == null || Tool_Description == null || Condition == null){
+             return null;
+         }
+         else {
+             Tool newTool = new Tool();
+
+             newTool.Tool_Name = Tool_Name;
+             newTool.Tool_Description = Tool_Description;
+             newTool.Condition = Condition;
+
+             return newTool;
+         }
+     }
+
 
 
 

@@ -8,37 +8,46 @@ package controllers;
 import models.Tool;
 import models.User;
 import models.UserAuth;
+import play.data.DynamicForm;
 import play.mvc.*;
 
 import play.mvc.Security.Authenticated;
 import play.data.Form;
 import views.html.index;
 
+import static play.data.Form.form;
+
 
 @Security.Authenticated(UserAuth.class)
 public class UserPage extends Controller {
     public Result getUserPage() {return ok(views.html.UserPage.render()); }
-/*
+
     @Security.Authenticated(UserAuth.class)
     public Result addTool() {
         //Add in some null checkers later
-        Tool tool = Form.form(Tool.class).bindFromRequest().get();
+        Form<Tool> userForm     = form(Tool.class).bindFromRequest();
+        String Tool_Name        = userForm.data().get("Tool_Name");
+        String Tool_Description = userForm.data().get("Tool_Description");
+        String Condition        = userForm.data().get("Condition");
+
+        Tool tool = Tool.createNewTool(Tool_Name, Tool_Description, Condition);
+
         String usrIdStr = session().get("user_id");
+        Long query = Long.valueOf(usrIdStr).longValue();
 
-        User user = User.find.where().eq("user_id", usrIdStr).findUnique();
+        User user = User.find.where().eq("id", query).findUnique();
 
-        if(user == null)
+        if(tool == null)
         {
             flash("FATALERROR");
             return redirect(routes.Application.index());
         }
         else{
-            tool.user = user.email;
+            tool.user = user;
             tool.save();
             user.addTool(tool);
 
         }
         return getUserPage();
     }
-*/
 }

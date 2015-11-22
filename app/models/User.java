@@ -51,13 +51,13 @@ import play.mvc.*;
         return BCrypt.checkpw(password, this.passwordHash);
     }
 
-    /*
+
     public void addTool(Tool tool)
     {
         this.tools.add(tool);
         this.save();
     }
-    */
+
 }
 
 

@@ -18,8 +18,23 @@
 
 
 <p> Add tool functionality is here for the time being! </p>
-<!--
 
-                                                --->
+<form action="@routes.UserPage.addTool()" method="post">
+    <div>
+        <label for="Tool_Name">Tool Name:</label>
+        <input type="text" id="Tool_Name" name="Tool_Name"/>
+    </div>
+    <div>
+        <label for="ToolDescrip">New post:</label>
+        <textarea id="text" id="Tool_Description" name="Tool_Description"></textarea>
+    </div>
+    <div>
+        <label for="Condition">Author:</label>
+        <input type="text" id="Condition" name="Condition"/>
+    </div>
+
+    <button>Submit</button>
+</form>
+
 </body>
 </html>

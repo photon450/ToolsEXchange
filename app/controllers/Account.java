@@ -51,9 +51,8 @@ public class Account extends Controller {
 
     public Result login() {
         DynamicForm userForm = form().bindFromRequest();
-        String email = userForm.data().get("username");
+        String email = userForm.data().get("Tool");
         String password = userForm.data().get("password");
-
         User user = User.find.where().eq("email", email).findUnique();
 
         if(user != null && user.authenticate(password)) {
