@@ -13,3 +13,5 @@ target
 /.project/.sbtserver
 /.project/plugins.sbt
 /RUNNING_PID
+/connections
+/master.log

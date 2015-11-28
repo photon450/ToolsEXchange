@@ -29,8 +29,8 @@ import play.mvc.*;
 
 
   // So check the username and password entered and see if neither is null and password is greater than 8
-    public static User createNewUser(String email, String password) {
-        if(password == null || email == null || password.length() < 8) {
+    public static User createNewUser(String email, String password, String first_name, String last_name, String username) {
+        if(password == null || email == null || password.length() < 8 || username == null) {
             return null;
         }
         // if not null continue process
@@ -42,7 +42,10 @@ import play.mvc.*;
         User user = new User();
         user.email = email;
         user.passwordHash = passwordHash;
-
+        user.first_name = first_name;
+        user.last_name = last_name;
+        user.username = username;
+        user.dateCreated = new java.util.Date();
         return user;
     }
 

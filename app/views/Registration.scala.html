@@ -19,10 +19,15 @@
 <h2> Sign Up Form</h2>
 @flashM()
 <form name = "Registration" action="@routes.Account.addUser()" method="post">
-     E-mail: <input type="text" name="username" id="username">
-     Password: <input tpye="text" name="password" id="password">
+     E-mail: <input type="email" name="email" id="email" required="required" > <br><br>
+     Password: <input type="password" name="password" id="password" required="required"><br><br>
+     First Name: <input type="text"  name="first_name"  id="first_name"> <br>
+     Last Name: <input type="text" name="last_name" id="last_name"> <br>
+     User Name: <input type="text" name="username" id="username" required="required"> <br>
+
 
 <input type="submit" value="Sign me up!">
+<input type="reset"  value="Reset Form">
 </form>
 <a href="@routes.home.getHome()">Go back to home</a>
 

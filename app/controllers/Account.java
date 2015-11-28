@@ -27,9 +27,12 @@ public class Account extends Controller {
         Form<User> userForm = form(User.class).bindFromRequest();      //creates a DynamicForm userform we bind from the request
         String email = userForm.data().get("username");
         String password = userForm.data().get("password");
+        String first_name = userForm.data().get("first_name");
+        String last_name = userForm.data().get("last_name");
+        String username = userForm.data().get("username");
 
         //returns a user
-        User user = User.createNewUser(email, password);
+        User user = User.createNewUser(email, password, first_name, last_name, username);
 
 
 

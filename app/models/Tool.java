@@ -16,7 +16,7 @@ public class Tool extends Model {
 
      public String Tool_Name;
 
-     @Lob
+
      public String  Tool_Description;
 
      public String Condition;
