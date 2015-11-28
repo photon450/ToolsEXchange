@@ -15,12 +15,17 @@ import play.mvc.Security.Authenticated;
 import play.data.Form;
 import views.html.index;
 
+import java.util.List;
+
 import static play.data.Form.form;
 
 
 @Security.Authenticated(UserAuth.class)
 public class UserPage extends Controller {
-    public Result getUserPage() {return ok(views.html.UserPage.render()); }
+    public Result getUserPage() {
+        List<Tool> = f
+        return ok(views.html.UserPage.render(navibar.retrieveId()));
+    }
 
     @Security.Authenticated(UserAuth.class)
     public Result addTool() {
