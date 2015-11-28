@@ -21,10 +21,12 @@ public class Tool extends Model {
 
      public String Condition;
 
-       @ManyToOne //(optional=false)
-       public User user;
+     @ManyToOne //(optional=false)
+     public User user;
 
-     public static Tool createNewTool(String Tool_Name, String Tool_Description, String Condition)
+    public static Finder<Long, Tool> find = new Finder<Long, Tool>(Tool.class);
+
+    public static Tool createNewTool(String Tool_Name, String Tool_Description, String Condition)
      {
          if(Tool_Name == null || Tool_Description == null || Condition == null){
              return null;

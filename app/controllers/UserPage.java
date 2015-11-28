@@ -23,8 +23,10 @@ import static play.data.Form.form;
 @Security.Authenticated(UserAuth.class)
 public class UserPage extends Controller {
     public Result getUserPage() {
-        List<Tool> = f
-        return ok(views.html.UserPage.render(navibar.retrieveId()));
+
+        List<Tool> tool_List = Tool.find.all();
+
+        return ok(views.html.UserPage.render(navibar.retrieveId(), tool_List));
     }
 
     @Security.Authenticated(UserAuth.class)
