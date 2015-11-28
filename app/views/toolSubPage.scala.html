@@ -1,5 +1,4 @@
 @(usrStrId: String)
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,28 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Registration</title>
+    <title> Share, Borrow, Build</title>
 
     <!-- Bootstrap -->
     <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
 
+
 </head>
-
-
 <body>
 
 @navbar(usrStrId)
-<h2> Sign Up Form</h2>
-@flashM()
-<form name = "Registration" action="@routes.Account.addUser()" method="post">
-     E-mail: <input type="text" name="username" id="username">
-     Password: <input type="password" name="password" id="password">
 
-<input type="submit" value="Sign me up!">
+<p>Add Tool Page</p>
+
+<form class="text-center" action="@routes.UserPage.addTool()" method="post">
+    <div>
+        <label for="Tool_Name">Tool Name:</label>
+        <input type="text" id="Tool_Name" name="Tool_Name"/>
+    </div>
+    <div>
+        <label for="Tool_Description">Tool Description:</label>
+        <textarea type="text" maxlength="1000" id="Tool_Description" name="Tool_Description"></textarea>
+    </div>
+    <div>
+        <label for="Condition">Condition (Be honest!):</label>
+        <input type="text" id="Condition" name="Condition"/>
+    </div>
+
+    <button>Submit</button>
 </form>
-<a href="@routes.home.getHome()">Go back to home</a>
 
 </body>
 </html>

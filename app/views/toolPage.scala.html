@@ -1,4 +1,4 @@
-@(usrStrId: String)
+@(usrIdStr: String, the_tool: Tool)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,28 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Registration</title>
+    <title> Share, Borrow, Build</title>
 
     <!-- Bootstrap -->
     <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
 
-</head>
 
+</head>
 
 <body>
 
-@navbar(usrStrId)
-<h2> Sign Up Form</h2>
-@flashM()
-<form name = "Registration" action="@routes.Account.addUser()" method="post">
-     E-mail: <input type="text" name="username" id="username">
-     Password: <input type="password" name="password" id="password">
+@navbar(usrIdStr)
 
-<input type="submit" value="Sign me up!">
-</form>
-<a href="@routes.home.getHome()">Go back to home</a>
+<h1 class="text-center">@the_tool.Tool_Name</h1>
+
+<p>@the_tool.Tool_Description</p>
+
+<ul>
+    <li>
+        Condition: @the_tool.Condition
+    </li>
+    <li>
+        Owner: @the_tool.user.email
+    </li>
+</ul>
+
+
 
 </body>
 </html>

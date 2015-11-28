@@ -17,9 +17,9 @@ import static play.data.Form.form;
 public class Account extends Controller {
 
     public Result getLoginPage() {
-        return ok(Login.render());
+        return ok(Login.render(navibar.retrieveId()));
     }
-    public Result getRegPage() { return ok(Registration.render());}
+    public Result getRegPage() { return ok(Registration.render(navibar.retrieveId()));}
 
 
 // we define adduser here.

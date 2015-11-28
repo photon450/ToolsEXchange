@@ -25,3 +25,7 @@ POST    /Login/Registration/submit      controllers.Account.addUser()
 POST    /Login                          controllers.Account.login()
 
 POST    /addTool                        controllers.UserPage.addTool()
+
+GET     /showTool:id                    controllers.toolP.displayTool(id: Long)
+
+GET     /toolSub                        controllers.toolsub.displayToolSub()

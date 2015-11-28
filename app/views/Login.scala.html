@@ -1,3 +1,5 @@
+@(usrStrId: String)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +17,8 @@
 </head>
 
 <body>
+
+@navbar(usrStrId)
 
 <form role="form" action="@routes.Account.login()" method="post">
 
