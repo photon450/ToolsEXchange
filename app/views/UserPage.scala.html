@@ -18,7 +18,9 @@
 
 
 @navbar(userIdStr)
-
+@if(tools == null){
+ You dont have any tools added yet
+} else {
 <p> View this user's tools below: </p>
     @for(tool <- tools){
     <ul>
@@ -31,7 +33,7 @@
     <label for="tool_list_descrp">Tool Description: </label>
     <p id="tool_list_descrp" name="tool_list_descrp"> @tool.Tool_Description </p>
     }
-
+}
 
 </body>
 </html>

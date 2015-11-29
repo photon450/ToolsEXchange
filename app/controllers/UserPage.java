@@ -22,12 +22,32 @@ import static play.data.Form.form;
 
 @Security.Authenticated(UserAuth.class)
 public class UserPage extends Controller {
+
+    // Regular Userpage, key from session
     public Result getUserPage() {
 
-        List<Tool> tool_List = Tool.find.all();
+        String the_id = session().get("user_id"), user_name;
+        Long query = Long.valueOf(the_id);
+        List<Tool> user_tool;
 
-        return ok(views.html.UserPage.render(navibar.retrieveId(), tool_List));
+            query = Long.valueOf(the_id).longValue();
+            User the_user = User.find.byId(query);
+            user_name = the_user.username;
+            if (!the_user.tools.isEmpty()) {
+                user_tool = the_user.tools;
+            } else {
+                user_tool = null;
+            }
+
+        return ok(views.html.UserPage.render( user_name, user_tool));
     }
+    /* From special event
+    public Result thisUserPage( String query ) {
+
+
+
+    }
+   */
 
     @Security.Authenticated(UserAuth.class)
     public Result addTool() {

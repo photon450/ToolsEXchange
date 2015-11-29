@@ -25,7 +25,7 @@ public class Account extends Controller {
 // we define adduser here.
     public Result addUser() {
         Form<User> userForm = form(User.class).bindFromRequest();      //creates a DynamicForm userform we bind from the request
-        String email = userForm.data().get("username");
+        String email = userForm.data().get("email");
         String password = userForm.data().get("password");
         String first_name = userForm.data().get("first_name");
         String last_name = userForm.data().get("last_name");
@@ -54,7 +54,7 @@ public class Account extends Controller {
 
     public Result login() {
         DynamicForm userForm = form().bindFromRequest();
-        String email = userForm.data().get("Tool");
+        String email = userForm.data().get("email");
         String password = userForm.data().get("password");
         User user = User.find.where().eq("email", email).findUnique();
 
