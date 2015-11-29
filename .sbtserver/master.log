@@ -1,22 +1,22 @@
-New log file opened at Sat Nov 28 17:46:10 EST 2015 by 4296@Mfts
-jvm 4296@Mfts
-jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.66-b18
+New log file opened at Sat Nov 28 19:20:38 EST 2015 by 9181@mettaton
+jvm 9181@mettaton
+jvm vmName=Java HotSpot(TM) Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
 Starting event engine
 Starting sbt command engine
 Waiting for sbt command engine
 Command engine arguments=List()
-Command engine baseDirectory=C:\Users\senoid\Documents\GitProjects\ToolsEXchange
+Command engine baseDirectory=/home/joseu/ToolsEXchange
 Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
 > --initialize
 > initialize
 > onFailure load-failed
 > boot
 > reload
-[Loading] Scanning directory C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project
+[Loading] Scanning directory /home/joseu/ToolsEXchange/project
 [Loading] Found non-root projects 
-[Loading] Done in C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project, returning: ()
+[Loading] Done in /home/joseu/ToolsEXchange/project, returning: ()
 deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
 sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
@@ -25,9 +25,9 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project, returning: (toolsexchange-build)
-Loading project definition from C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@ba9eb7, check cycles: false
+[Loading] Done in /home/joseu/ToolsEXchange/project, returning: (toolsexchange-build)
+Loading project definition from /home/joseu/ToolsEXchange/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@12b4a95, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -46,7 +46,7 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-[Loading] Scanning directory C:\Users\senoid\Documents\GitProjects\ToolsEXchange
+[Loading] Scanning directory /home/joseu/ToolsEXchange
 [Loading] Found root project root w/ remaining 
 deducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(play.ebean.sbt.PlayEbean), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.ebean.sbt.PlayEbean),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,play.ebean.sbt.PlayEbean,play.sbt.PlayJava,com.typesafe.play.sbt.enhancer.PlayEnhancer,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayNettyServer,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.jshint.SbtJSHint,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.docker.DockerPlugin,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.digest.SbtDigest,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
@@ -60,494 +60,187 @@ sorting: ns: List(sbt.plugins.CorePlugin, play.ebean.sbt.PlayEbean, play.sbt.Pla
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
-[Loading] Done in C:\Users\senoid\Documents\GitProjects\ToolsEXchange, returning: (root)
-Set current project to ToolsEXchange (in build file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/)
+[Loading] Done in /home/joseu/ToolsEXchange, returning: (root)
+Set current project to ToolsEXchange (in build file:/home/joseu/ToolsEXchange/)
 Reapplying settings...
-Set current project to ToolsEXchange (in build file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/)
+Set current project to ToolsEXchange (in build file:/home/joseu/ToolsEXchange/)
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@17f6c69, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
+
+Read from stdout: Compiling 1 Scala source and 3 Java sources to /home/joseu/ToolsEXchange/target/scala-2.11/classes...
+Compiling 1 Scala source and 3 Java sources to /home/joseu/ToolsEXchange/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 6d8c2a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/joseu/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/joseu/ToolsEXchange/target/scala-2.11/classes:/home/joseu/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/joseu/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/joseu/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/joseu/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/joseu/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/joseu/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/joseu/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/joseu/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/joseu/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/joseu/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/joseu/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/joseu/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/joseu/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/joseu/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/joseu/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/joseu/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/joseu/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/joseu/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/joseu/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/joseu/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/joseu/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/joseu/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/joseu/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/joseu/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/joseu/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/joseu/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/joseu/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/joseu/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/joseu/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/joseu/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/joseu/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/joseu/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/joseu/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/joseu/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/joseu/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/joseu/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/home/joseu/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/home/joseu/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/home/joseu/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/joseu/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/joseu/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/joseu/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/joseu/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/joseu/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/joseu/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/joseu/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/home/joseu/.ivy2/cache/org.mindrot/jbcrypt/jars/jbcrypt-0.3m.jar
+Scala compilation took 3.013148499 s
+Attempting to call com.sun.tools.javac.api.JavacTool@2576b8 directly...
+Read from stdout: /home/joseu/ToolsEXchange/app/controllers/Account.java:22: method render in class views.html.Registration cannot be applied to given types;
+Read from stdout: required: no arguments
+Read from stdout: found: java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/home/joseu/ToolsEXchange/app/controllers/Account.java:22: method render in class views.html.Registration cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: Registration.render
+Registration.render
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 5 s, completed Nov 28, 2015 7:20:48 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/joseu/ToolsEXchange/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@656e8282, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@146a109, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
 
-Total time: 2 s, completed Nov 28, 2015 5:46:19 PM
+Read from stdout: Compiling 1 Scala source and 3 Java sources to /home/joseu/ToolsEXchange/target/scala-2.11/classes...
+Compiling 1 Scala source and 3 Java sources to /home/joseu/ToolsEXchange/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 63b4, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/joseu/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/joseu/ToolsEXchange/target/scala-2.11/classes:/home/joseu/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/joseu/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/joseu/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/joseu/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/joseu/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/joseu/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/joseu/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/joseu/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/joseu/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/joseu/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/joseu/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/joseu/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/joseu/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/joseu/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/joseu/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/joseu/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/joseu/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/joseu/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/joseu/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/joseu/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/joseu/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/joseu/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/joseu/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/joseu/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/joseu/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/joseu/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/joseu/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/joseu/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/joseu/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/joseu/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/joseu/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/joseu/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/joseu/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/joseu/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/joseu/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/joseu/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/home/joseu/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/home/joseu/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/home/joseu/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/joseu/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/joseu/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/joseu/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/joseu/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/joseu/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/joseu/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/joseu/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/home/joseu/.ivy2/cache/org.mindrot/jbcrypt/jars/jbcrypt-0.3m.jar
+Scala compilation took 0.966880105 s
+Attempting to call com.sun.tools.javac.api.JavacTool@1fed9ac directly...
+Read from stdout: /home/joseu/ToolsEXchange/app/controllers/Account.java:22: method render in class views.html.Registration cannot be applied to given types;
+Read from stdout: required: no arguments
+Read from stdout: found: java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/home/joseu/ToolsEXchange/app/controllers/Account.java:22: method render in class views.html.Registration cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: Registration.render
+Registration.render
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Nov 28, 2015 7:20:49 PM
+> server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
+> {file:/home/joseu/ToolsEXchange/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@584bb28e, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:46:19 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@f3b5ab, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 7:20:49 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+> {file:/home/joseu/ToolsEXchange/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@1e9fc545, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@ad3a19, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(/home/joseu/ToolsEXchange/app/controllers/Account.java, /home/joseu/ToolsEXchange/app/controllers/navibar.java, /home/joseu/ToolsEXchange/target/scala-2.11/twirl/main/views/html/Registration.template.scala, /home/joseu/ToolsEXchange/app/models/User.java)
 
-Total time: 1 s, completed Nov 28, 2015 5:46:20 PM
+Read from stdout: Compiling 1 Scala source and 3 Java sources to /home/joseu/ToolsEXchange/target/scala-2.11/classes...
+Compiling 1 Scala source and 3 Java sources to /home/joseu/ToolsEXchange/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 1680770, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/joseu/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/joseu/ToolsEXchange/target/scala-2.11/classes:/home/joseu/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/joseu/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/joseu/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/joseu/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/joseu/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/joseu/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/joseu/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/joseu/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/joseu/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/joseu/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/joseu/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/joseu/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/joseu/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/joseu/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/joseu/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/joseu/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/joseu/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/joseu/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/joseu/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/joseu/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/joseu/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/joseu/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/joseu/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/joseu/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/joseu/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/joseu/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/joseu/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/joseu/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/joseu/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/joseu/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/joseu/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/joseu/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/joseu/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/joseu/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/joseu/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/joseu/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/joseu/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/joseu/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/home/joseu/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/home/joseu/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/home/joseu/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/joseu/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/joseu/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/joseu/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/joseu/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/joseu/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/joseu/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/joseu/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/joseu/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/home/joseu/.ivy2/cache/org.mindrot/jbcrypt/jars/jbcrypt-0.3m.jar
+Scala compilation took 1.288070162 s
+Attempting to call com.sun.tools.javac.api.JavacTool@b3eaaa directly...
+Read from stdout: /home/joseu/ToolsEXchange/app/controllers/Account.java:22: method render in class views.html.Registration cannot be applied to given types;
+Read from stdout: required: no arguments
+Read from stdout: found: java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/home/joseu/ToolsEXchange/app/controllers/Account.java:22: method render in class views.html.Registration cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: Registration.render
+Registration.render
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed Nov 28, 2015 7:20:51 PM
+> server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
+> {file:/home/joseu/ToolsEXchange/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@2f819133, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:46:20 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@4d2ed05, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:48:34 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@7ed93082, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:48:37 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@7c91d63f, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:48:39 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@52234046, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\application.conf,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\application.conf)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\logback.xml,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\routes,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\routes)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Total time: 3 s, completed Nov 28, 2015 5:48:56 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1316d0fa, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Java compilation took 1.260904739 s
-Java analysis took 0.187873152 s
-Java compile + analysis took 1.474608709 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Nov 28, 2015 6:26:48 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 1
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@5ba10ba2, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:48 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@154969ff, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:49 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@634a84bd, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:55 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@2e519501, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:57 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1d162766, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-Read from stdout: user.dateCreated = Date
-Read from stdout: ^
-        user.dateCreated = Date
-                               ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Nov 28, 2015 6:28:40 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@114ba494, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-Read from stdout: user.dateCreated = Date.se
-Read from stdout: ^
-        user.dateCreated = Date.se
-                                  ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Nov 28, 2015 6:29:23 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@9905528, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-Read from stdout: user.dateCreated = Date.setTime;
-Read from stdout: ^
-        user.dateCreated = Date.setTime;
-                               ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Nov 28, 2015 6:29:33 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@6ba3e6d1, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Java compilation took 1.089682755 s
-Java analysis took 0.104526283 s
-Java compile + analysis took 1.210356869 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Nov 28, 2015 6:31:23 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 2
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@799a033, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:23 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@768481fb, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:23 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@40758ea0, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:27 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@51accf2b, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:28 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@6d299cfb, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\application.conf,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\application.conf)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\logback.xml,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\routes,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\routes)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Total time: 2 s, completed Nov 28, 2015 6:31:30 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@25ce5d4a, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-Read from stdout: user.dateCreated = new System.currentTimeMillis();
-Read from stdout: ^
-        user.dateCreated = new System.currentTimeMillis();
-                                     ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 2 s, completed Nov 28, 2015 6:34:35 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@37653da3, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-Read from stdout: user.dateCreated = new System.currentTimeMillis();
-Read from stdout: ^
-        user.dateCreated = new System.currentTimeMillis();
-                                     ^
-Total time: 2 s, completed Nov 28, 2015 6:34:38 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4b396e14, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed Nov 28, 2015 6:34:53 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 3
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@1ff2f93d, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:53 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@3d98d5a2, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:53 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@43c0b01c, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:56 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@7f88110f, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:58 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@29c86b4f, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\application.conf,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\application.conf)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\logback.xml,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\routes,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\routes)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Total time: 2 s, completed Nov 28, 2015 6:35:00 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@174a50e, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 7:20:51 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
