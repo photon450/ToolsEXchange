@@ -4,6 +4,8 @@ package models;
 import com.avaje.ebean.Model;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Whale on 11/13/2015.
@@ -16,13 +18,15 @@ public class Tool extends Model {
 
      public String Tool_Name;
 
-
-     public String  Tool_Description;
+     public String Tool_Description;
 
      public String Condition;
 
      @ManyToOne //(optional=false)
      public User user;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "tool")
+    List<Comment> comments = new ArrayList<Comment>();
 
     public static Finder<Long, Tool> find = new Finder<Long, Tool>(Tool.class);
 

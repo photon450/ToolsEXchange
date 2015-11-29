@@ -19,36 +19,17 @@
 
 @navbar(userIdStr)
 
-<p> Add tool functionality is here for the time being! </p>
-
-<form class="text-center" action="@routes.UserPage.addTool()" method="post">
-    <div>
-        <label for="Tool_Name">Tool Name:</label>
-        <input type="text" id="Tool_Name" name="Tool_Name"/>
-    </div>
-    <div>
-        <label for="ToolDescrip">Tool Description:</label>
-        <textarea id="text" id="Tool_Description" name="Tool_Description"></textarea>
-    </div>
-    <div>
-        <label for="Condition">Condition (Be honest!):</label>
-        <input type="text" id="Condition" name="Condition"/>
-    </div>
-
-    <button>Submit</button>
-</form>
-
 <p> View this user's tools below: </p>
     @for(tool <- tools){
     <ul>
          <label for="tool_name">Tool Name: </label>
-         <a href="#" id="tool_name" name="tool_name">@tool.Tool_Name</a>
+         <a href="@routes.toolP.displayTool(tool.ToolId)" id="tool_name" name="tool_name">@tool.Tool_Name</a>
          <li id="tool_cond" name="tool_cond" ><b> Condition: </b> @tool.Condition</li>
         <br/>
     </ul>
+
     <label for="tool_list_descrp">Tool Description: </label>
     <p id="tool_list_descrp" name="tool_list_descrp"> @tool.Tool_Description </p>
-
     }
 
 

@@ -1,5 +1,4 @@
-@(usrIdStr: String)
-
+@(usrStrId: String)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,9 +17,26 @@
 </head>
 <body>
 
+@navbar(usrStrId)
 
-@navbar(usrIdStr)
+<p>Add Tool Page</p>
 
+<form class="text-center" action="@routes.UserPage.addTool()" method="post">
+    <div>
+        <label for="Tool_Name">Tool Name:</label>
+        <input type="text" id="Tool_Name" name="Tool_Name"/>
+    </div>
+    <div>
+        <label for="Tool_Description">Tool Description:</label>
+        <textarea type="text" maxlength="1000" id="Tool_Description" name="Tool_Description"></textarea>
+    </div>
+    <div>
+        <label for="Condition">Condition (Be honest!):</label>
+        <input type="text" id="Condition" name="Condition"/>
+    </div>
+
+    <button>Submit</button>
+</form>
 
 </body>
 </html>

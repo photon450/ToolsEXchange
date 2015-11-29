@@ -1,4 +1,4 @@
-@(usrIdStr: String)
+@(usrIdStr: String, the_tool: Tool)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,10 +16,24 @@
 
 
 </head>
+
 <body>
 
-
 @navbar(usrIdStr)
+
+<h1 class="text-center">@the_tool.Tool_Name</h1>
+
+<p>@the_tool.Tool_Description</p>
+
+<ul>
+    <li>
+        Condition: @the_tool.Condition
+    </li>
+    <li>
+        Owner: @the_tool.user.email
+    </li>
+</ul>
+
 
 
 </body>
