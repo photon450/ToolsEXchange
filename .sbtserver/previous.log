@@ -1,5 +1,5 @@
-New log file opened at Sat Nov 28 17:46:10 EST 2015 by 4296@Mfts
-jvm 4296@Mfts
+New log file opened at Sat Nov 28 16:50:35 EST 2015 by 8692@Mfts
+jvm 8692@Mfts
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.66-b18
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project, returning: (toolsexchange-build)
 Loading project definition from C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@ba9eb7, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@7f5038, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,9 +67,9 @@ Set current project to ToolsEXchange (in build file:/C:/Users/senoid/Documents/G
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@656e8282, check cycles: false
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@15ac4d11, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -86,18 +86,12 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 2 s, completed Nov 28, 2015 5:46:19 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@584bb28e, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:46:19 PM
+Total time: 1 s, completed Nov 28, 2015 4:50:42 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@1e9fc545, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e81cd8b, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -114,36 +108,58 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed Nov 28, 2015 5:46:20 PM
+Total time: 1 s, completed Nov 28, 2015 4:50:43 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@2f819133, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:46:20 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@528dea8b, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:50:43 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@51d98abe, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed Nov 28, 2015 4:50:44 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@4d2ed05, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:48:34 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@15226418, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:51:00 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@7ed93082, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:48:37 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@5f73ad3f, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:51:03 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@7c91d63f, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 5:48:39 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@34765bf, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:51:04 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@52234046, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@3096e16b, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -168,225 +184,200 @@ Copy resource mappings:
 	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
 	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
 Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Total time: 3 s, completed Nov 28, 2015 5:48:56 PM
+Total time: 2 s, completed Nov 28, 2015 4:51:11 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1316d0fa, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@30fc287d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
 
 Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
 Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Java compilation took 1.260904739 s
-Java analysis took 0.187873152 s
-Java compile + analysis took 1.474608709 s
+Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java:20:  error: variable query might not have been initialized
+C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java:20:  error: variable query might not have been initialized
+Read from stdout: User the_user = User.find.byId(query);
+Read from stdout: ^
+            User the_user = User.find.byId(query);
+                                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Nov 28, 2015 4:54:07 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@75d6a857, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java:20:  error: variable query might not have been initialized
+C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java:20:  error: variable query might not have been initialized
+Read from stdout: User the_user = User.find.byId(query);
+Read from stdout: ^
+            User the_user = User.find.byId(query);
+                                           ^
+Total time: 2 s, completed Nov 28, 2015 4:54:16 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6280d806, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Java compilation took 0.691749471 s
+Java analysis took 0.155703324 s
+Java compile + analysis took 0.860676988 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Nov 28, 2015 6:26:48 PM
+Total time: 1 s, completed Nov 28, 2015 4:55:04 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > jobStop 1
 Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@5ba10ba2, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:48 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@49c9939f, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:04 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@154969ff, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:49 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@576984ed, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:04 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@634a84bd, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:55 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@2ff6886b, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:07 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@2e519501, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:26:57 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@6ad5bad9, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:09 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1d162766, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@68ea8c1b, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\navibar.java)
 
 Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
 Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-Read from stdout: user.dateCreated = Date
-Read from stdout: ^
-        user.dateCreated = Date
-                               ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Nov 28, 2015 6:28:40 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@114ba494, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: ';' expected
-Read from stdout: user.dateCreated = Date.se
-Read from stdout: ^
-        user.dateCreated = Date.se
-                                  ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Nov 28, 2015 6:29:23 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@9905528, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-Read from stdout: user.dateCreated = Date.setTime;
-Read from stdout: ^
-        user.dateCreated = Date.setTime;
-                               ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Nov 28, 2015 6:29:33 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@6ba3e6d1, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Java compilation took 1.089682755 s
-Java analysis took 0.104526283 s
-Java compile + analysis took 1.210356869 s
+Java compilation took 0.99271054 s
+Java analysis took 0.091265499 s
+Java compile + analysis took 1.095077562 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Nov 28, 2015 6:31:23 PM
+Total time: 2 s, completed Nov 28, 2015 4:55:19 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@93e4096, check cycles: false
+
+Canceling execution...
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@4844dc28 rejected from java.util.concurrent.ThreadPoolExecutor@46833b50[Shutting down, pool size = 8, active threads = 8, queued tasks = 0, completed tasks = 1]
+java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@4844dc28 rejected from java.util.concurrent.ThreadPoolExecutor@46833b50[Shutting down, pool size = 8, active threads = 8, queued tasks = 0, completed tasks = 1]
+Use 'last' for the full log.
+> server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
 > jobStop 2
 Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@799a033, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:23 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b90e8ee, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:20 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@768481fb, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:23 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@2bb8ade3, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:20 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@40758ea0, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:27 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@41fa2e28, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:23 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@51accf2b, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:31:28 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@3cc34e37, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 4:55:25 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@6d299cfb, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@516611ff, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -410,121 +401,24 @@ Copy resource mappings:
 	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\routes,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\routes)
 	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
 	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Total time: 2 s, completed Nov 28, 2015 6:31:30 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@25ce5d4a, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-Read from stdout: user.dateCreated = new System.currentTimeMillis();
-Read from stdout: ^
-        user.dateCreated = new System.currentTimeMillis();
-                                     ^
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 2 s, completed Nov 28, 2015 6:34:35 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@37653da3, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
-Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\User.java:48:  error: cannot find symbol
-Read from stdout: user.dateCreated = new System.currentTimeMillis();
-Read from stdout: ^
-        user.dateCreated = new System.currentTimeMillis();
-                                     ^
-Total time: 2 s, completed Nov 28, 2015 6:34:38 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4b396e14, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed Nov 28, 2015 6:34:53 PM
+Total time: 2 s, completed Nov 28, 2015 4:55:31 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > jobStop 3
 Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@1ff2f93d, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:53 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@314c745c, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 5:02:46 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@3d98d5a2, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:53 PM
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@3f340340, check cycles: false
+Total time: 0 s, completed Nov 28, 2015 5:46:00 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@43c0b01c, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:56 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@7f88110f, check cycles: false
-Total time: 0 s, completed Nov 28, 2015 6:34:58 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@29c86b4f, check cycles: false
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@46ea48e7, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -541,13 +435,13 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Copy resource mappings: 
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\application.conf,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\application.conf)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\logback.xml,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\logback.xml)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\routes,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\routes)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default)
-	(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\conf\evolutions\default\1.sql,C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes\evolutions\default\1.sql)
-Total time: 2 s, completed Nov 28, 2015 6:35:00 PM
+Total time: 1 s, completed Nov 28, 2015 5:46:01 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 8692@Mfts logs at Sat Nov 28 17:46:02 EST 2015, goodbye.
