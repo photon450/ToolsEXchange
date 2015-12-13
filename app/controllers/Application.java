@@ -7,7 +7,7 @@ import views.html.*;
 public class Application extends Controller {
 
     public Result index() {
-        return ok(Home.render(navibar.retrieveId()));
+        return ok(Home.render());
     }
 
 }
