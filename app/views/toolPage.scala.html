@@ -21,9 +21,8 @@
 
 @navbar(usrIdStr)
 
-<h1 class="text-center">@the_tool.Tool_Name</h1>
 
-<p>@the_tool.Tool_Description</p>
+<h1 class="text-center">@the_tool.Tool_Name</h1>
 
 <ul>
     <li>
@@ -31,6 +30,10 @@
     </li>
     <li>
         Owner: @the_tool.user.email
+    </li>
+
+    <li>
+        <a href="@routes.toolP.getComments(the_tool.ToolId)">View Comments</a>
     </li>
 </ul>
 

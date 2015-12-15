@@ -19,9 +19,21 @@ public class Comment extends Model {
     @ManyToOne
     public Tool tool;
 
-    public Comment(String author, String content)
+    public static Comment createNewComment(String author, String content, Tool the_tool)
     {
-        this.author = author;
+        if(author == null)
+        {
+            return null;
+        }
+        else {
 
+            Comment newComment = new Comment();
+            newComment.author = author;
+            newComment.content = content;
+            newComment.tool = the_tool;
+
+            return newComment;
+
+        }
     }
 }

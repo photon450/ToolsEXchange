@@ -1,0 +1,56 @@
+@(comments: List[Comment], the_tool: Tool)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> Share, Borrow, Build</title>
+
+    <!-- Bootstrap -->
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+
+</head>
+<body>
+
+@navbar( controllers.navibar.retrieveId() )
+
+<h1> @the_tool.Tool_Name </h1>
+<p>@the_tool.Tool_Description</p>
+
+@if( controllers.navibar.retrieveId() != null) {
+<form action="@routes.toolP.submitPost(the_tool.ToolId)" method="post">
+    <div>
+        <label for="title">Post a comment!:</label>
+        <input type="text" id="title" name="title"/>
+    </div>
+    <div>
+        <label for="content">New post:</label>
+        <textarea id="content" name="content"></textarea>
+    </div>
+    <button>Submit</button>
+</form>
+}
+
+@if(comments != null){
+<ul id="comments" name="comments">
+    @for(comment <- comments){
+
+        <a href="#">@comment.author</a>
+        <p> @comment.content </p>
+        <br/>
+    }
+} else {
+
+No comments! Would you like to make the first comment?
+
+}
+
+</ul>
+
+</body>
+</html>

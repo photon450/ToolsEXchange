@@ -29,3 +29,7 @@ POST    /addTool                        controllers.UserPage.addTool()
 GET     /showTool:id                    controllers.toolP.displayTool(id: Long)
 
 GET     /toolSub                        controllers.toolsub.displayToolSub()
+
+GET     /Comments                    controllers.toolP.getComments(id: Long)
+
+POST    /newComment                  controllers.toolP.submitPost(tool_id: Long)
