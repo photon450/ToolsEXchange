@@ -45,6 +45,7 @@ public class toolP extends Controller {
             return redirect(routes.Application.index());
         }
         else{
+            flash("success", "Added comment successfully!");
             comment.save();
             the_tool.addComment(comment);
 

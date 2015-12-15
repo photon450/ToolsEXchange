@@ -19,15 +19,13 @@
 
 @navbar( controllers.navibar.retrieveId() )
 
+@flashM()
+
 <h1> @the_tool.Tool_Name </h1>
 <p>@the_tool.Tool_Description</p>
 
 @if( controllers.navibar.retrieveId() != null) {
 <form action="@routes.toolP.submitPost(the_tool.ToolId)" method="post">
-    <div>
-        <label for="title">Post a comment!:</label>
-        <input type="text" id="title" name="title"/>
-    </div>
     <div>
         <label for="content">New post:</label>
         <textarea id="content" name="content"></textarea>
@@ -40,9 +38,9 @@
 <ul id="comments" name="comments">
     @for(comment <- comments){
 
-        <a href="#">@comment.author</a>
-        <p> @comment.content </p>
-        <br/>
+        <li>
+        @comment.content
+        </li>
     }
 } else {
 
