@@ -19,7 +19,7 @@ public class Account extends Controller {
     public Result getLoginPage() {
         return ok(Login.render(navibar.retrieveId()));
     }
-    public Result getRegPage() { return ok(Registration.render(navibar.retrieveId()));}
+    public Result getRegPage() { return ok(Registration.render());}
 
 
 // we define adduser here.
