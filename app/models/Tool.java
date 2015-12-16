@@ -26,7 +26,7 @@ public class Tool extends Model {
      public User user;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "tool")
-    public List<Comment> comments = new ArrayList<Comment>();
+    public List<Comment> comments;
 
     public static Finder<Long, Tool> find = new Finder<Long, Tool>(Tool.class);
 

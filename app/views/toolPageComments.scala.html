@@ -22,6 +22,7 @@
 @flashM()
 
 <h1> @the_tool.Tool_Name </h1>
+<h2> @the_tool.ToolId </h2>
 <p>@the_tool.Tool_Description</p>
 
 @if( controllers.navibar.retrieveId() != null) {
@@ -34,19 +35,13 @@
 </form>
 }
 
-@if(comments != null){
-<ul id="comments" name="comments">
+<ul id="commentsl" name="commentsl">
     @for(comment <- comments){
 
         <li>
         @comment.content
         </li>
     }
-} else {
-
-No comments! Would you like to make the first comment?
-
-}
 
 </ul>
 
