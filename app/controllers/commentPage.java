@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Created by joseu on 11/28/15.
  */
-public class toolP extends Controller {
+public class commentPage extends Controller {
 
     public Result displayTool(Long id) {
         Tool the_tool = Tool.find.byId(id);

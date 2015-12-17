@@ -17,6 +17,7 @@ create table tool (
   tool_name                 varchar(255),
   tool_description          varchar(255),
   condition                 varchar(255),
+  tool_type                 varchar(255),
   user_id                   bigint,
   constraint pk_tool primary key (tool_id))
 ;

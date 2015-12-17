@@ -26,10 +26,10 @@ POST    /Login                          controllers.Account.login()
 
 POST    /addTool                        controllers.UserPage.addTool()
 
-GET     /showTool:id                    controllers.toolP.displayTool(id: Long)
+GET     /showTool:id                    controllers.commentPage.displayTool(id: Long)
 
 GET     /toolSub                        controllers.toolsub.displayToolSub()
 
-GET     /Comments                    controllers.toolP.getComments(id: Long)
+GET     /Comments                    controllers.commentPage.getComments(id: Long)
 
-POST    /newComment                  controllers.toolP.submitPost(tool_id: Long)
+POST    /newComment                  controllers.commentPage.submitPost(tool_id: Long)

@@ -21,12 +21,12 @@
 
 @flashM()
 
-<h1> @the_tool.Tool_Name </h1>
-<h2> @the_tool.ToolId </h2>
-<p>@the_tool.Tool_Description</p>
+<h1 class="text-center"> @the_tool.Tool_Name </h1>
+<h2 class="text-center"> @the_tool.ToolId </h2>
+<p class="text-center">@the_tool.Tool_Description</p>
 
 @if( controllers.navibar.retrieveId() != null) {
-<form action="@routes.toolP.submitPost(the_tool.ToolId)" method="post">
+<form action="@routes.commentPage.submitPost(the_tool.ToolId)" method="post" class="text-center">
     <div>
         <label for="content">New post:</label>
         <textarea id="content" name="content"></textarea>
@@ -35,7 +35,7 @@
 </form>
 }
 
-<ul id="commentsl" name="commentsl">
+<ul id="commentsl" name="commentsl" class="text-center">
     @for(comment <- comments){
 
         <li>
