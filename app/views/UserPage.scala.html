@@ -15,18 +15,18 @@
 
 </head>
 <body>
-
-
+<center>
 @navbar(userIdStr)
 @if(tools == null){
- You dont have any tools added yet
+ You don't have any tools added yet
 } else {
 <p> View this user's tools below: </p>
     @for(tool <- tools){
     <ul>
          <label for="tool_name">Tool Name: </label>
-         <a href="@routes.toolP.displayTool(tool.ToolId)" id="tool_name" name="tool_name">@tool.Tool_Name</a>
+         <a href="@routes.commentPage.displayTool(tool.ToolId)" id="tool_name" name="tool_name">@tool.Tool_Name</a>
          <li id="tool_cond" name="tool_cond" ><b> Condition: </b> @tool.Condition</li>
+         <li id="Tool_Type" name="Tool_Type"><b> Tool Type: </b> @tool.Tool_Type </li>
         <br/>
     </ul>
 
@@ -34,6 +34,7 @@
     <p id="tool_list_descrp" name="tool_list_descrp"> @tool.Tool_Description </p>
     }
 }
+</center>
 
 </body>
 </html>

@@ -4,10 +4,12 @@
 # --- !Ups
 
 create table comment (
+  id                        bigserial not null,
   author                    varchar(255),
   posted_at                 timestamp,
   content                   varchar(255),
-  tool_tool_id              bigint)
+  tool_tool_id              bigint,
+  constraint pk_comment primary key (id))
 ;
 
 create table tool (
@@ -15,6 +17,7 @@ create table tool (
   tool_name                 varchar(255),
   tool_description          varchar(255),
   condition                 varchar(255),
+  tool_type                 varchar(255),
   user_id                   bigint,
   constraint pk_tool primary key (tool_id))
 ;

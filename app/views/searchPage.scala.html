@@ -1,4 +1,5 @@
-@(usrStrId: String)
+@(tool_results: List[Tool])
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,37 +16,47 @@
 
 
 </head>
+
 <body>
 
-@navbar(usrStrId)
+@navbar( controllers.navibar.retrieveId() )
 
-<p>Add Tool Page</p>
+<center>
 
-<form class="text-center" action="@routes.UserPage.addTool()" method="post">
-    <div>
-        <label for="Tool_Name">Tool Name:</label>
-        <input type="text" id="Tool_Name" name="Tool_Name"/>
-    </div>
-    <div>
-        <label for="Tool_Description">Tool Description:</label>
-        <textarea type="text" maxlength="1000" id="Tool_Description" name="Tool_Description"></textarea>
-    </div>
-    <div>
-        <label for="Condition">Condition (Be honest!):</label>
-        <input type="text" id="Condition" name="Condition"/>
-    </div>
-    <div>
+<h1> Select a tool type to browse the tools! </h1>
+<div>
+<form class="text-center" action="@routes.searchPage.find_by_query()" method="post">
         <label for="Tool_Type">Tool type: </label>
         <select id="Tool_Type" name="Tool_Type">
         <option value="Drill">Drill</option>
         <option value="Hammer">Hammer</option>
         <option value="Omni-Tool">Omni-Tool</option>
         </select>
-
-    </div>
-
-    <button>Submit</button>
+        <button>Search!</button>
 </form>
+</div>
+
+@if(tool_results == null) {
+
+    <b> Enter a search option! </b>
+} else {
+    @if( tool_results.isEmpty() ) {
+        <b> No results found! </b>
+        @flashM()
+    } else {
+        @for(tool <- tool_results){
+        <ul>
+            <label for="tool_name">Tool Name: </label>
+            <a href="@routes.commentPage.displayTool(tool.ToolId)" id="tool_name" name="tool_name">@tool.Tool_Name</a>
+            <li id="tool_cond" name="tool_cond" ><b> Condition: </b> @tool.Condition</li>
+            <li id="Tool_Type" name="Tool_Type"><b> Tool Type: </b> @tool.Tool_Type </li>
+            <br/>
+        </ul>
+        }
+    }
+}
+</center>
+
 
 </body>
 </html>

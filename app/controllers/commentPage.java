@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Created by joseu on 11/28/15.
  */
-public class toolP extends Controller {
+public class commentPage extends Controller {
 
     public Result displayTool(Long id) {
         Tool the_tool = Tool.find.byId(id);
@@ -39,7 +39,7 @@ public class toolP extends Controller {
 
         Comment comment = Comment.createNewComment(usrIdStr, content, the_tool);
 
-        if(the_tool == null || comment == null)
+        if(the_tool == null || comment == null || usrIdStr == null)
         {
             flash("FATALERROR");
             return redirect(routes.Application.index());
@@ -50,14 +50,18 @@ public class toolP extends Controller {
             the_tool.addComment(comment);
 
         }
-        return getComments(tool_id);
+
+        List<Comment> comments = the_tool.comments;
+
+        return ok(toolPageComments.render(comments, the_tool)); //Render the tool's comments page
     }
 
     //Uses the tool ID to get the comments FOR that ID.
     public Result getComments(Long id) {
         Tool thetool = Tool.find.byId(id);
 
-        List<Comment> comments = thetool.comments;
+        List<Comment> comments;
+        comments = thetool.comments;
 
         return ok(toolPageComments.render(comments, thetool)); //Render the tool's comments page
     }

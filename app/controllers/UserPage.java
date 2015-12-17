@@ -56,8 +56,9 @@ public class UserPage extends Controller {
         String Tool_Name        = userForm.data().get("Tool_Name");
         String Tool_Description = userForm.data().get("Tool_Description");
         String Condition        = userForm.data().get("Condition");
+        String Tool_Type        = userForm.data().get("Tool_Type");
 
-        Tool tool = Tool.createNewTool(Tool_Name, Tool_Description, Condition);
+        Tool tool = Tool.createNewTool(Tool_Name, Tool_Description, Condition, Tool_Type);
 
         String usrIdStr = session().get("user_id");
         Long query = Long.valueOf(usrIdStr).longValue();

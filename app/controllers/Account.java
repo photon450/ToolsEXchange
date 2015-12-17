@@ -34,7 +34,11 @@ public class Account extends Controller {
         //returns a user
         User user = User.createNewUser(email, password, first_name, last_name, username);
 
-
+        if(password.length() < 8)
+        {
+            flash("error", "Insufficient character (min: 8)");
+            return redirect(routes.Account.getRegPage());
+        }
 
         if(user == null){
             flash("error", "invalid user");

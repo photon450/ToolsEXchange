@@ -26,10 +26,16 @@ POST    /Login                          controllers.Account.login()
 
 POST    /addTool                        controllers.UserPage.addTool()
 
-GET     /showTool:id                    controllers.toolP.displayTool(id: Long)
+GET     /showTool:id                    controllers.commentPage.displayTool(id: Long)
 
 GET     /toolSub                        controllers.toolsub.displayToolSub()
 
-GET     /Comments                    controllers.toolP.getComments(id: Long)
+GET     /Comments                       controllers.commentPage.getComments(id: Long)
 
-POST    /newComment                  controllers.toolP.submitPost(tool_id: Long)
+POST    /newComment                     controllers.commentPage.submitPost(tool_id: Long)
+
+GET     /Search                         controllers.searchPage.display_search_page()
+
+POST    /Search/Results                 controllers.searchPage.find_by_query()
+
+GET     /Home/UserPage/OfferPage        controllers.offer_page.generate_offer_page()
