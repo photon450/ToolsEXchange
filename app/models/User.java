@@ -14,7 +14,7 @@ import play.data.validation.Constraints;
 import play.mvc.*;
 
 /**
- * Created by admin on 11/7/2015.
+ * Created by joseu on 11/7/2015.
  */
     @Table(name="users")
     @Entity

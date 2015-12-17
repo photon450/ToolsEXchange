@@ -1,0 +1,62 @@
+@(tool_results: List[Tool])
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> Share, Borrow, Build</title>
+
+    <!-- Bootstrap -->
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+
+</head>
+
+<body>
+
+@navbar( controllers.navibar.retrieveId() )
+
+<center>
+
+<h1> Select a tool type to browse the tools! </h1>
+<div>
+<form class="text-center" action="@routes.searchPage.find_by_query()" method="post">
+        <label for="Tool_Type">Tool type: </label>
+        <select id="Tool_Type" name="Tool_Type">
+        <option value="Drill">Drill</option>
+        <option value="Hammer">Hammer</option>
+        <option value="Omni-Tool">Omni-Tool</option>
+        </select>
+        <button>Search!</button>
+</form>
+</div>
+
+@if(tool_results == null) {
+
+    <b> Enter a search option! </b>
+} else {
+    @if( tool_results.isEmpty() ) {
+        <b> No results found! </b>
+        @flashM()
+    } else {
+        @for(tool <- tool_results){
+        <ul>
+            <label for="tool_name">Tool Name: </label>
+            <a href="@routes.commentPage.displayTool(tool.ToolId)" id="tool_name" name="tool_name">@tool.Tool_Name</a>
+            <li id="tool_cond" name="tool_cond" ><b> Condition: </b> @tool.Condition</li>
+            <li id="Tool_Type" name="Tool_Type"><b> Tool Type: </b> @tool.Tool_Type </li>
+            <br/>
+        </ul>
+        }
+    }
+}
+</center>
+
+
+</body>
+</html>
