@@ -1,7 +1,10 @@
 package controllers;
 
+import models.Tool;
 import play.mvc.*;
 import views.html.*;
+
+import java.util.List;
 
 /**
  * Created by joseu on 11/7/2015.

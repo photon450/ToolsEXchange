@@ -1,0 +1,16 @@
+@(tool_list: List[Tool])
+
+
+@if(tool_list.isEmpty()){
+No tools found! Be the first to contribute.
+} else {
+    @for(tool <- tool_list){
+        <ul>
+            <label for="tool_name">Tool Name: </label>
+            <a href="@routes.commentPage.displayTool(tool.ToolId)" id="tool_name" name="tool_name">@tool.Tool_Name</a>
+            <li id="tool_cond" name="tool_cond" ><b> Condition: </b> @tool.Condition</li>
+            <li id="Tool_Type" name="Tool_Type"><b> Tool Type: </b> @tool.Tool_Type </li>
+        <br/>
+        </ul>
+    }
+  }
