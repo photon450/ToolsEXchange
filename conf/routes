@@ -37,3 +37,5 @@ POST    /newComment                     controllers.commentPage.submitPost(tool_
 GET     /Search                         controllers.searchPage.display_search_page()
 
 POST    /Search/Results                 controllers.searchPage.find_by_query()
+
+GET     /Home/UserPage/OfferPage        controllers.offer_page.generate_offer_page()

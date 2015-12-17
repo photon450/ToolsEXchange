@@ -1,4 +1,4 @@
-@(usrIdStr: String, the_tool: Tool)
+@(inventory: List[Tool])
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,28 +16,21 @@
 
 
 </head>
-
 <body>
 
-@navbar(usrIdStr)
+@navbar( controllers.navibar.retrieveId() )
 
-
-<h1 class="text-center">@the_tool.Tool_Name</h1>
-
-<ul>
-    <li>
-        Condition: @the_tool.Condition
-    </li>
-    <li>
-        Owner: @the_tool.user.email
-    </li>
-
-    <li>
-        <a href="@routes.commentPage.getComments(the_tool.ToolId)">View Comments</a>
-    </li>
-</ul>
-
-<a href='@routes.offer_page.generate_offer_page()'>Make an offer! </a>
+<center>
+<h1> View your list of offers here </h1>
+<form class="text-center" action="#" method="post">
+<select name="ToolId" id="ToolId">
+    @for(tool <- inventory){
+        <option value="tool.ToolId">@tool.Tool_Name</option>
+    }
+</select>
+<button>Make the offer!</button>
+</form>
+</center>
 
 </body>
 </html>
