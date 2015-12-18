@@ -5,6 +5,7 @@
 @if(usrIdStr != null){
 Hello: @usrIdStr
 <ul class="nav nav-tabs">
+
     <li class="active">
         <a href="#" class="text-center"> View newly added tools here </a>
     </li>
@@ -13,20 +14,51 @@ Hello: @usrIdStr
     <li><a href="@routes.UserPage.getUserPage()":>Account</a></li>
     <li><a href="@routes.Account.logout()">Logout</a></li>
     <li><a href="@routes.searchPage.display_search_page()">Search for Tools</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="@routes.Application.getAbout()">About</a></li>
+
 
 </ul>
 } else{
 
-<ul class="nav nav-tabs">
-    <li class="active">
-        <a href="#" class="text-center"> View newly added tools here </a>
-    </li>
-    <li><a href="@routes.home.getHome()">ToolsEXchange</a></li>
-    <li><a href="@routes.Account.getLoginPage()">Login</a></li>
-    <li><a href="@routes.Account.getRegPage()">New Users</a></li>
-    <li><a href="@routes.searchPage.display_search_page()">Search for Tools</a></li>
-    <li><a href="#">About</a></li>
+<!-- Menu -->
+<div class="row-fluid">
+    <div id="menu" class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
 
-</ul>
+
+
+                <!-- Be sure to leave the brand out there if you want it shown -->
+                <a href="index.html" class="brand">ToolEXchange</a>
+
+                <!-- Everything you want hidden at 940px or less, place within here -->
+
+                    <ul class="nav">
+                        <li  class="active">
+                            <a href="@routes.home.getHome()">ToolsEXchange</a>
+                        </li>
+                        <li>
+                            <a href="@routes.Account.getLoginPage()">Login</a>
+                        </li>
+                        <li>
+                            <a href="@routes.Account.getRegPage()">New Users</a>
+                        </li>
+                        <li>
+                            <a href="@routes.searchPage.display_search_page()">Search for Tools</a>
+                        </li>
+                        <li>
+                            <a href="@routes.Application.getAbout()">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 }
+

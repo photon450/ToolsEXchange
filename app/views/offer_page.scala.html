@@ -10,14 +10,14 @@
     <title> Share, Borrow, Build</title>
 
     <!-- Bootstrap -->
-    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.css")" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
 
 
 </head>
 <body>
-
+<div class="container">
 @navbar( controllers.navibar.retrieveId() )
 
 <center>
@@ -49,5 +49,6 @@ Confirm borrow of @the_tool.Tool_Name ?
 <button>Submit</button>
 </form>
 
+</div>
 </body>
 </html>
