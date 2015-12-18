@@ -25,7 +25,11 @@ public class Tool extends Model {
      public String Tool_Type;
 
      @ManyToOne //(optional=false)
-     public User user;
+     public User user; //the real owner
+
+     public boolean borrowed;
+
+     public User original_owner;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "tool")
     public List<Comment> comments;
@@ -44,6 +48,7 @@ public class Tool extends Model {
              newTool.Tool_Description = Tool_Description;
              newTool.Condition = Condition;
              newTool.Tool_Type = Tool_Type;
+             newTool.borrowed = false;
 
              return newTool;
          }

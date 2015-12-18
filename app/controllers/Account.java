@@ -36,7 +36,7 @@ public class Account extends Controller {
 
         if(password.length() < 8)
         {
-            flash("error", "Insufficient character (min: 8)");
+            flash("error", "Password too short (min: 8 characters)");
             return redirect(routes.Account.getRegPage());
         }
 

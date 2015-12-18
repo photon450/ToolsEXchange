@@ -34,10 +34,14 @@ public class commentPage extends Controller {
 
         String usrIdStr = session().get("user_id");
 
+        Long query = Long.valueOf(usrIdStr).longValue();
+
+        User the_user = User.find.byId(query);
+
         Tool the_tool = Tool.find.where().eq("ToolId", tool_id).findUnique();
         //We will obtain the tool via the tool id number.
 
-        Comment comment = Comment.createNewComment(usrIdStr, content, the_tool);
+        Comment comment = Comment.createNewComment(the_user.username, content, the_tool);
 
         if(the_tool == null || comment == null || usrIdStr == null)
         {

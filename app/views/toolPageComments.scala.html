@@ -35,15 +35,13 @@
 </form>
 }
 
-<ul id="commentsl" name="commentsl" class="text-center">
+<dl>
     @for(comment <- comments){
-
-        <li>
-        @comment.content
-        </li>
+        <dt>@comment.author <b>posted at:</b> @comment.postedAt</dt>
+        <dd>@comment.content </dd>
     }
 
-</ul>
+</dl>
 
 </body>
 </html>
