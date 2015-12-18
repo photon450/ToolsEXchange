@@ -24,7 +24,7 @@
 @if(tools == null){
  You don't have any tools added yet
 } else {
-<p> View this user's tools below: </p>
+<h1> View this user's tools below: </h1>
     @for(tool <- tools){
     <ul>
          <label for="tool_name">Tool Name: </label>
@@ -39,6 +39,14 @@
     }
 }
 </center>
+
+<hr>
+
+<h2> Tools borrowed: </h2>
+
+@display_tool_list( controllers.UserPage.return_borrowed_Tools() )
+
+<a href="@routes.UserPage.render_return_borrow"> Return a borrowed tool </a>
 
 </body>
 </html>
