@@ -39,7 +39,7 @@ public class Comment extends Model {
             newComment.author = author;
             newComment.content = content;
             newComment.tool = the_tool;
-
+            newComment.postedAt = new Date();
             return newComment;
 
         }
