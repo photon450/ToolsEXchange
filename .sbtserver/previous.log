@@ -1,5 +1,5 @@
-New log file opened at Fri Dec 18 05:49:39 EST 2015 by 7472@Mfts
-jvm 7472@Mfts
+New log file opened at Fri Dec 18 11:39:41 EST 2015 by 4416@Mfts
+jvm 4416@Mfts
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.66-b18
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project, returning: (toolsexchange-build)
 Loading project definition from C:\Users\senoid\Documents\GitProjects\ToolsEXchange\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@5fde2e8e, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@fc5351d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,10 +67,321 @@ Set current project to ToolsEXchange (in build file:/C:/Users/senoid/Documents/G
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@35b02cc6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+Read from stdout: String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+Read from stdout: ^
+        String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+                                                      ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed Dec 18, 2015 11:39:48 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@2d684ee9, check cycles: false
+Total time: 0 s, completed Dec 18, 2015 11:39:49 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@62086ac3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+Read from stdout: String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+Read from stdout: ^
+        String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+                                                      ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 18, 2015 11:39:50 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@43e9e4e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+Read from stdout: String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+Read from stdout: ^
+        String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+                                                      ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 18, 2015 11:39:51 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@56886ee6, check cycles: false
+Total time: 0 s, completed Dec 18, 2015 11:39:51 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@469320b8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+Read from stdout: String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+Read from stdout: ^
+        String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+                                                      ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 18, 2015 11:45:10 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@37648fa5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Read from stdout: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java:17:  error: cannot find symbol
+Read from stdout: String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+Read from stdout: ^
+        String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+                                                      ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 18, 2015 11:46:40 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@581b0bc9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\controllers\offer_page.java, C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\senoid\Documents\GitProjects\ToolsEXchange\target\scala-2.11\classes...
+Java compilation took 1.085678117 s
+Java analysis took 0.245242237 s
+Java compile + analysis took 1.344072083 s
+Invalidating C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java...
+Invalidating (transitively) by inheritance from C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java...
+Initial set of included nodes: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java)
+The C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java source file has the following regular definitions changed:
+	setEmail, setFirst_name, addPropertyChangeListener, getDateCreated, notify, _ebean_setFieldIntercept, first_name, find, refresh, removePropertyChangeListener, Admin, findFutureRowCount, getLast_name, nextId, wait, Model$Find, createNewManager, email, setId, insert, setLast_name, equals, setDateCreated, _ebean_getPropertyName, username, getPassword, _ebean_props, _ebean_createCopy, serverName, findEachWhile, all, findEach, getEmail, _ebean_getPropertyNames, setReadOnly, setPassword, getUsername, passwordHash, Model$Finder, db, _ebean_setEmbeddedLoaded, query, _ebean_getIntercept, ref, getFirst_name, findPagedList, setQuery, byId, setUsername, setAutofetch, _ebean_getField, notifyAll, _ebean_isEmbeddedNewOrDirty, setUseQueryCache, filter, setRawSql, select, getExpressionFactory, _ebean_getMarker, setUseCache, <init>, id, getPasswordHash, on, dateCreated, apply, findSet, last_name, order, _ebean_newInstance, findRowCount, orderBy, setMaxRows, delete, findIds, fetch, setLoadBeanCache, authenticate, toString, markAsDirty, where, setFirstRow, getClass, update, type, save, getId, findList, _ebean_setField, setForUpdate, _ebean_intercept, hashCode, deleteById, findMap, password, _ebean_getFieldIntercept, setPasswordHash.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\senoid\Documents\GitProjects\ToolsEXchange\app\models\Admin.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed Dec 18, 2015 11:47:45 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5597c1a4, check cycles: false
+
+Canceling execution...
+Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@7e3837d7 rejected from java.util.concurrent.ThreadPoolExecutor@6f94d868[Shutting down, pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 15]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@7e3837d7 rejected from java.util.concurrent.ThreadPoolExecutor@6f94d868[Shutting down, pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 15]
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e4ee521, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Global,Global,Global),update)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Global,Global,Global),update)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5b53cb21, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@10cb827d, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e96364d, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5c19c2f3, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2f9445c8, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/,root)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@44269a89, check cycles: false
+Total time: 0 s, completed Dec 18, 2015 11:50:36 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/senoid/Documents/GitProjects/ToolsEXchange/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@6deb157f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed Dec 18, 2015 11:50:36 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
 Closing listening server socket
 Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 7472@Mfts logs at Fri Dec 18 05:50:48 EST 2015, goodbye.
+Closing the 4416@Mfts logs at Fri Dec 18 11:50:38 EST 2015, goodbye.

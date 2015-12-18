@@ -19,13 +19,129 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
     <link href="@routes.Assets.versioned("stylesheets/bootstrap-responsive.css")" rel="stylesheet">
+    <link href="@routes.Assets.versioned("stylesheets/main.css")" rel="stylesheet">
 
+<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("engine1/style.css")" rel="stylesheet" />
+<script type="text/javascript" src="@routes.Assets.versioned("engine1/jquery.js")"></script>
+    <script type="text/javascript">
+    function MM_effectShake(targetElement)
+    {
+    Spry.Effect.DoShake(targetElement);
+    }
+    function MM_swapImgRestore() { //v3.0
+    var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+    var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
 
+    function MM_findObj(n, d) { //v4.01
+    var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+    if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+    for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+    if(!x && d.getElementById) x=d.getElementById(n); return x;
+    }
+
+    function MM_swapImage() { //v3.0
+    var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+    }
+    </script>
+    <style> background-image:url("@routes.Assets.versioned("images/Hammers.jpg)")"> </style>
 </head>
-<body>
+<body  >
+
 <div class="container">
 
 @navbar( controllers.navibar.retrieveId() )
+    <div id="features" class="row-fluid">
+
+        <div class="span4">
+            <div class="feature_head">
+                <h4> Share Something Today!</h4>
+            </div>
+            <img id="Image9" width=300px; src="@routes.Assets.versioned("images/Hammers.jpg")" alt="Put a tool in here">
+
+            <p>
+                Have a tool around, have something specialized or you
+                have running out of space, share and make some profit
+                wile your at it. What can you share? Specialized tools,
+                generators and soon even more.
+
+            </p>
+        </div>
+        <div class="span4">
+            <div class="feature_head">
+                <h4><a href="gallery.html" class="nodec">Gallery</a></h4>
+
+            </div>
+            <br>
+
+
+            <!-- <img src="assets/img/frame.jpg" alt="" />-->
+
+            <!-- Start WOWSlider.com BODY section -->
+            <div id="wowslider-container1">
+                <div class="ws_images"><ul>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_16.jpg") alt="" title="" id="wows1_0"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_17.jpg") alt="SLIDEWEB 17" title="SLIDEWEB 17" id="wows1_1"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_18.jpg") alt="SLIDEWEB 18" title="SLIDEWEB 18" id="wows1_2"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_19.jpg") alt="SLIDEWEB 19" title="SLIDEWEB 19" id="wows1_3"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_20.jpg") alt="SLIDEWEB 20" title="SLIDEWEB 20" id="wows1_4"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_22.jpg") alt="SLIDEWEB 22" title="SLIDEWEB 22" id="wows1_5"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_24.jpg") alt="SLIDEWEB 24" title="SLIDEWEB 24" id="wows1_6"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_25.jpg") alt="SLIDEWEB 25" title="SLIDEWEB 25" id="wows1_7"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/slideweb_26.jpg") alt="SLIDEWEB 26" title="SLIDEWEB 26" id="wows1_8"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/untitled_1_1.jpg") alt="<untitled> 1 (1)" title="<untitled> 1 (1)" id="wows1_9"/></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/untitled_1.jpg") alt="<untitled> 1" title="<untitled> 1" id="wows1_10"/></li>
+                    <li><a href="http://wowslider.com"><img src=@routes.Assets.versioned("data1/images/untitled_2.jpg") alt="wordpress slider plugin" title="<untitled> 2" id="wows1_11"/></a></li>
+                    <li><img src=@routes.Assets.versioned("data1/images/untitled_1_0.jpg") alt="<untitled> (1)" title="<untitled> (1)" id="wows1_12"/></li>
+                </ul></div>
+                <div class="ws_bullets"><div>
+                    <a href="#" title=""><span><img src="data1/tooltips/slideweb_16.jpg" alt=""/>1</span></a>
+                    <a href="#" title="SLIDEWEB 17"><span><img src="data1/tooltips/slideweb_17.jpg" alt="SLIDEWEB 17"/>2</span></a>
+                    <a href="#" title="SLIDEWEB 18"><span><img src="data1/tooltips/slideweb_18.jpg" alt="SLIDEWEB 18"/>3</span></a>
+                    <a href="#" title="SLIDEWEB 19"><span><img src="data1/tooltips/slideweb_19.jpg" alt="SLIDEWEB 19"/>4</span></a>
+                    <a href="#" title="SLIDEWEB 20"><span><img src="data1/tooltips/slideweb_20.jpg" alt="SLIDEWEB 20"/>5</span></a>
+                    <a href="#" title="SLIDEWEB 22"><span><img src="data1/tooltips/slideweb_22.jpg" alt="SLIDEWEB 22"/>6</span></a>
+                    <a href="#" title="SLIDEWEB 24"><span><img src="data1/tooltips/slideweb_24.jpg" alt="SLIDEWEB 24"/>7</span></a>
+                    <a href="#" title="SLIDEWEB 25"><span><img src="data1/tooltips/slideweb_25.jpg" alt="SLIDEWEB 25"/>8</span></a>
+                    <a href="#" title="SLIDEWEB 26"><span><img src="data1/tooltips/slideweb_26.jpg" alt="SLIDEWEB 26"/>9</span></a>
+                    <a href="#" title="<untitled> 1 (1)"><span><img src="data1/tooltips/untitled_1_1.jpg" alt="<untitled> 1 (1)"/>10</span></a>
+                    <a href="#" title="<untitled> 1"><span><img src="data1/tooltips/untitled_1.jpg" alt="<untitled> 1"/>11</span></a>
+                    <a href="#" title="<untitled> 2"><span><img src="data1/tooltips/untitled_2.jpg" alt="<untitled> 2"/>12</span></a>
+                    <a href="#" title="<untitled> (1)"><span><img src="data1/tooltips/untitled_1_0.jpg" alt="<untitled> (1)"/>13</span></a>
+                </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery gallery</a> by WOWSlider.com v8.0m</div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine1/wowslider.js"></script>
+            <script type="text/javascript" src="engine1/script.js"></script>
+            <p>
+
+                We are a global community, COMING SOON community pages.
+                Share and interact with your local community, comment and
+                share. Or search by community and see tha latest deals
+                close to home.
+            </p>
+        </div>
+        <div class="span4">
+            <div class="feature_head">
+                <h4><a class="nodec">Easy</a></h4>
+            </div>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','@routes.Assets.versioned("images/Easy.jpg") ',1)"><img src="@routes.Assets.versioned("images/idea.jpg")" name="Image8" id="Image8"></a>
+            <p>
+                You have Ideas, need a specilized tool for the job?
+                Dont want to buy something youll never use again?
+                Search our collection of tools, I bet someone has
+                what you need.
+            </p>
+        </div>
+    </div>
+
+
 
 
 <center>
@@ -35,16 +151,17 @@
 
 </center>
 
+@footer()
 
 <footer>
+<center>
 				<p>
 &copy; Copyright 2015 Jose &amp; Dionis Pena
 				</p>
 			</footer>
 			<!-- End Footer -->
-		</div>
-    </div>
-    <!-- End Menu -->
+			</center>
+
 </div>
 </body>
 </html>

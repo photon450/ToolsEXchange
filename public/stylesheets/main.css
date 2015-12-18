@@ -1,3 +1,42 @@
-.body { background-color:
-margin-left: 15em;
+.body { background-color:#F3F3F3;
+    margin-left: 15em;
+    font-family: 12px/1.7 Arial,Helvetica,sans-serif;
+    color: #666;
+    background-image:url("@routes.Assets.versioned("images/Hammers.jpg)")"
 }
+p {font-family: 12px/1.7 Arial,Helvetica,sans-serif;
+        }
+
+#header, #bottom_links, .feature_head{
+	background-color: #606060;
+	color: white;
+}
+feature_head {
+	padding: 2%;
+	text-align: center;
+	border-radius: 40px
+	font-size: 1.2em;
+	}
+
+	ul {
+    	list-style: none;
+    	margin-left: 0
+    	color:white;
+    }
+
+ .nodec  {
+ 	text-decoration: none;
+ 	color: #F9FAFB;
+  }
+
+
+.nodec:hover { text-decoration: none;
+                  color:#FFFFFF;}
+.nodec:focus { text-decoration: none;
+                  color:#FFFFFF;}
+
+ #header, #bottom_links, .feature_head{
+ 	background-color: #3B2803;
+ 	color: #fff;
+
+ }
