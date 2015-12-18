@@ -35,9 +35,13 @@
     <li>
         <a href="@routes.commentPage.getComments(the_tool.ToolId)">View Comments</a>
     </li>
+    @if(the_tool.borrowed) {
+
+    }
 </ul>
 
 <a href="@routes.offer_page.generate_offer_page(the_tool.ToolId)">Make an offer! </a>
+@footer()
 </div>
 </body>
 </html>

@@ -1,0 +1,39 @@
+@(tool_list: List[Tool])
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> Share, Borrow, Build</title>
+
+    <!-- Bootstrap -->
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+
+</head>
+<body>
+
+@if(tool_list.isEmpty()){
+
+You have no tools to trade.
+
+} else {
+    <h1> Which tool do you wish to return? </h1>
+    <form class="text-center" action="@routes.offer_page.return_Tool()" method="post">
+    <select name="ToolId" id="ToolId">
+        @for(tool <- tool_list){
+            <option value="tool.ToolId">@tool.Tool_Name</option>
+        }
+    </select>
+    <button>Return</button>
+    </form>
+}
+
+
+</body>
+
+</html>

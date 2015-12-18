@@ -42,4 +42,10 @@ GET     /Home/UserPage/OfferPage:tool_id       controllers.offer_page.generate_o
 
 POST    /Home/UserPage/OfferPage:tool_id    controllers.offer_page.complete_Borrow(tool_id: Long)
 
+
 GET     /Home/About                     controllers.Application.getAbout()
+
+POST    /Home/UserPage/returnPage/return_Tool      controllers.offer_page.return_Tool()
+
+GET     /Home/UserPage/returnPage           controllers.UserPage.render_return_borrow()
+
