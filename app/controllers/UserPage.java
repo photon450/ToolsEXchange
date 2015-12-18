@@ -79,4 +79,24 @@ public class UserPage extends Controller {
         }
         return getUserPage();
     }
+
+    public static List<Tool> return_borrowed_Tools()
+    {
+        List<Tool> borrowed_tools = Tool.find.where().eq("borrowed", true).findList();//Return a list of borrowed tools
+
+        if(borrowed_tools == null)
+        {
+            return null;
+        }
+        else{
+            return borrowed_tools;
+        }
+    }
+
+
+    public Result render_return_borrow()
+    {
+        return ok(views.html.return_borrow.render(return_borrowed_Tools()));
+    }
+
 }
