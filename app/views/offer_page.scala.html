@@ -1,4 +1,4 @@
-@(inventory: List[Tool])
+@(inventory: List[Tool], the_tool: Tool)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,16 +21,33 @@
 @navbar( controllers.navibar.retrieveId() )
 
 <center>
-<h1> View your list of offers here </h1>
-<form class="text-center" action="#" method="post">
-<select name="ToolId" id="ToolId">
-    @for(tool <- inventory){
-        <option value="tool.ToolId">@tool.Tool_Name</option>
-    }
-</select>
-<button>Make the offer!</button>
-</form>
+
+
+@if(inventory.isEmpty()){
+
+You have no tools to trade.
+
+} else {
+    <h1> View your list of offers here </h1>
+    <form class="text-center" action="#" method="post">
+    <select name="ToolId" id="ToolId">
+        @for(tool <- inventory){
+            <option value="the_tool.ToolId">@the_tool.Tool_Name</option>
+        }
+    </select>
+    <button>Make the offer!</button>
+    </form>
+}
 </center>
+
+Confirm borrow of @the_tool.Tool_Name ?
+<form class="text-center" action="@routes.offer_page.complete_Borrow(the_tool.ToolId)" method="post">
+<select name="borrow" id="borrow">
+    <option value="Yes"> Yes </option>
+    <option value="No"> No </option>
+</select>
+<button>Submit</button>
+</form>
 
 </body>
 </html>

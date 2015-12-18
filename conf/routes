@@ -38,4 +38,6 @@ GET     /Search                         controllers.searchPage.display_search_pa
 
 POST    /Search/Results                 controllers.searchPage.find_by_query()
 
-GET     /Home/UserPage/OfferPage        controllers.offer_page.generate_offer_page()
+GET     /Home/UserPage/OfferPage:tool_id       controllers.offer_page.generate_offer_page(tool_id: Long)
+
+POST    /Home/UserPage/OfferPage:tool_id    controllers.offer_page.complete_Borrow(tool_id: Long)

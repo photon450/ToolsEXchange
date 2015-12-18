@@ -19,6 +19,7 @@ create table tool (
   condition                 varchar(255),
   tool_type                 varchar(255),
   user_id                   bigint,
+  borrowed                  boolean,
   constraint pk_tool primary key (tool_id))
 ;
 

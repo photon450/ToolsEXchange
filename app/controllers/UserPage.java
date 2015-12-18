@@ -72,6 +72,7 @@ public class UserPage extends Controller {
         }
         else{
             tool.user = user;
+            tool.original_owner = user;
             tool.save();
             user.addTool(tool);
 
