@@ -1,5 +1,25 @@
-This is your new Play application
-=================================
+This is an open source tool sharing web platform. 
 
-This file will be packaged with your application, when using `activator dist`.
-dfejfdiwejf
+Currently in Pre-Alpha  v.0.5.0
+=========================================
+Working Features.
+  Creating an Account.
+  Login and Log out.
+  Adding Tools.
+  Commenting on Tool postings.
+  Search and Discovery of tools.
+  Account Management.
+  My Tool Managment.
+ 
+ ==================================== 
+Currently Being Worked on
+  Search and Discovery Improvements.
+  Admin Account, privliges and administracion.
+  Account Management
+  My Tool Management
+  
+  
+  ==========================
+  To-Do
+  
+  
